@@ -16,7 +16,7 @@ class Product extends Model
     protected $fillable = [
         'id', 'name', 'slug', 'brand', 'description', 'specifications', 'questions', 'sku',
         'regular_price', 'sale_price', 'stock', 'low_stock_threshold', 'is_active', 'sold_count',
-        'category_id', 'created_at', 'updated_at',
+        'category_id', 'meta_title', 'meta_description', 'created_at', 'updated_at',
     ];
 
     protected function casts(): array
@@ -53,7 +53,7 @@ class Product extends Model
 
     public function images(): HasMany
     {
-        return $this->hasMany(ProductImage::class)->orderBy('sort_order');
+        return $this->hasMany(ProductImage::class)->orderByDesc('is_primary')->orderBy('sort_order');
     }
 
     public function scopeActive(Builder $query): Builder

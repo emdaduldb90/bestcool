@@ -2,15 +2,41 @@
 @section('title', 'Store settings')
 @section('page-title', 'Store settings')
 @section('content')
-@php($submittedSettings = old('settings', $values))
-<div class="mb-5"><p class="text-sm text-slate-500">Edit public contact and SEO details used across the storefront.</p></div>
-<form method="POST" action="{{ route('admin.settings.update') }}" class="max-w-3xl rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7">@csrf @method('PUT')
-    @foreach($fields as $key => $field)
-        <label class="mb-4 block text-sm font-semibold">{{ $field['label'] }}
-            @if(str_contains($key, 'Description') || str_contains($key, 'address') || str_contains($key, 'message'))<textarea name="settings[{{ $key }}]" rows="3" class="admin-input mt-1.5">{{ $submittedSettings[$key] ?? '' }}</textarea>
-            @else<input name="settings[{{ $key }}]" value="{{ $submittedSettings[$key] ?? '' }}" class="admin-input mt-1.5">@endif
-        </label>
-    @endforeach
-    <button class="mt-2 rounded-xl bg-slate-900 px-5 py-3 text-sm font-bold text-white">Save settings</button>
+@php
+    $submittedSettings = old('settings', $values);
+    $navLinks = old('navLinks', $values['nav.header']);
+    $footerColumns = old('footerColumns', $values['footer.columns']);
+    $socialLinks = old('socialLinks', $values['social.links']);
+    $homeServices = old('homeServices', $values['home.services']);
+@endphp
+<p class="mb-5 text-sm text-slate-500">Update public brand details, navigation, homepage service tiles, footer and search metadata. Changes clear the storefront settings cache.</p>
+<form method="POST" action="{{ route('admin.settings.update') }}" enctype="multipart/form-data" class="space-y-5">@csrf @method('PUT')
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="mb-4 text-base font-bold">General & contact</h2><div class="grid gap-4 md:grid-cols-2">
+        @foreach($fields as $key => $field)
+            @if(!in_array($key, ['site.logo','site.favicon','home.about.heading','home.about.html'], true) && !str_starts_with($key, 'seo.') && $key !== 'footer.text')
+                <label class="text-sm font-semibold">{{ $field['label'] }}<input name="settings[{{ $key }}]" value="{{ $submittedSettings[$key] ?? '' }}" class="admin-input mt-1.5"></label>
+            @endif
+        @endforeach
+    </div></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">Branding</h2><div class="mt-4 grid gap-5 md:grid-cols-2">
+        @foreach(['site.logo' => ['Store logo', 'logo_file'], 'site.favicon' => ['Favicon', 'favicon_file']] as $key => [$label, $fileKey])
+            <div><label class="block text-sm font-semibold">{{ $label }} path or https URL<input name="settings[{{ $key }}]" value="{{ $submittedSettings[$key] ?? '' }}" class="admin-input mt-1.5"></label>@if(!empty($values[$key]))<img src="{{ filter_var($values[$key], FILTER_VALIDATE_URL) ? $values[$key] : asset(ltrim($values[$key], '/')) }}" alt="Current {{ strtolower($label) }}" class="mt-3 max-h-20 max-w-56 object-contain">@endif<label class="mt-3 block text-xs font-semibold">Upload a replacement<input type="file" name="branding[{{ $fileKey }}]" accept="image/png,image/jpeg,image/webp" class="mt-1.5 block w-full rounded-xl border border-slate-300 p-2 text-xs"></label></div>
+        @endforeach
+    </div><p class="mt-3 text-xs text-slate-500">Uploaded files are stored under public/uploads/branding using unique filenames. Existing /uploads/ assets remain supported.</p></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">Header navigation</h2><p class="mt-1 text-xs text-slate-500">Rows are displayed in order. Leave a row empty to remove it.</p><div class="mt-4 space-y-2">@for($i = 0; $i < max(6, count($navLinks)); $i++)@php($link = $navLinks[$i] ?? [])<div class="grid items-end gap-2 sm:grid-cols-[1fr_2fr_auto]"><label class="text-xs font-semibold">Label<input name="navLinks[{{ $i }}][label]" value="{{ $link['label'] ?? '' }}" class="admin-input mt-1"></label><label class="text-xs font-semibold">Link<input name="navLinks[{{ $i }}][href]" value="{{ $link['href'] ?? '' }}" placeholder="/shop" class="admin-input mt-1"></label><label class="flex items-center gap-1 pb-2 text-xs"><input type="checkbox" name="navLinks[{{ $i }}][active]" value="1" @checked($link['active'] ?? true)> Active</label></div>@endfor</div></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">Homepage service tiles</h2><p class="mt-1 text-xs text-slate-500">These cards appear below the hero banner. Leave all fields blank to hide a tile.</p><div class="mt-4 grid gap-4 lg:grid-cols-2">@for($i = 0; $i < max(4, count($homeServices)); $i++)@php($service = $homeServices[$i] ?? [])<div class="grid gap-2 rounded-xl border border-slate-200 p-3 sm:grid-cols-2"><label class="text-xs font-semibold">Icon<input name="homeServices[{{ $i }}][icon]" value="{{ $service['icon'] ?? '' }}" maxlength="8" class="admin-input mt-1"></label><label class="text-xs font-semibold">Title<input name="homeServices[{{ $i }}][title]" value="{{ $service['title'] ?? '' }}" class="admin-input mt-1"></label><label class="text-xs font-semibold">Description<input name="homeServices[{{ $i }}][text]" value="{{ $service['text'] ?? '' }}" class="admin-input mt-1"></label><label class="text-xs font-semibold">Link<input name="homeServices[{{ $i }}][href]" value="{{ $service['href'] ?? '' }}" class="admin-input mt-1"></label></div>@endfor</div></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">Footer</h2><label class="mt-4 block text-sm font-semibold">Footer text<textarea name="settings[footer.text]" rows="2" class="admin-input mt-1.5">{{ $submittedSettings['footer.text'] ?? '' }}</textarea></label><div class="mt-5 space-y-5">@for($i = 0; $i < max(2, count($footerColumns)); $i++)@php($column = $footerColumns[$i] ?? [])<div class="rounded-xl border border-slate-200 p-4"><div class="grid gap-3 sm:grid-cols-[2fr_auto]"><label class="text-sm font-semibold">Column {{ $i + 1 }} title<input name="footerColumns[{{ $i }}][title]" value="{{ $column['title'] ?? '' }}" class="admin-input mt-1"></label><label class="flex items-center gap-2 text-xs"><input type="checkbox" name="footerColumns[{{ $i }}][active]" value="1" @checked($column['active'] ?? true)> Active</label></div><div class="mt-3 grid gap-2 sm:grid-cols-2">@for($j = 0; $j < max(4, count($column['links'] ?? [])); $j++)@php($footerLink = $column['links'][$j] ?? [])<div class="grid grid-cols-[1fr_1fr_auto] gap-2"><label class="text-[11px] font-semibold">Link label<input name="footerColumns[{{ $i }}][links][{{ $j }}][label]" value="{{ $footerLink['label'] ?? '' }}" class="admin-input mt-1"></label><label class="text-[11px] font-semibold">URL<input name="footerColumns[{{ $i }}][links][{{ $j }}][href]" value="{{ $footerLink['href'] ?? '' }}" class="admin-input mt-1"></label><label class="flex items-center gap-1 pt-5 text-[11px]"><input type="checkbox" name="footerColumns[{{ $i }}][links][{{ $j }}][active]" value="1" @checked($footerLink['active'] ?? true)> Active</label></div>@endfor</div></div>@endfor</div></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">Social links</h2><div class="mt-4 grid gap-3 md:grid-cols-2">@for($i = 0; $i < max(3, count($socialLinks)); $i++)@php($social = $socialLinks[$i] ?? [])<div class="grid grid-cols-2 gap-2"><label class="text-xs font-semibold">Platform<input name="socialLinks[{{ $i }}][platform]" value="{{ $social['platform'] ?? '' }}" class="admin-input mt-1"></label><label class="text-xs font-semibold">HTTPS URL<input name="socialLinks[{{ $i }}][url]" value="{{ $social['url'] ?? '' }}" class="admin-input mt-1"></label><label class="flex items-center gap-2 text-xs"><input type="checkbox" name="socialLinks[{{ $i }}][active]" value="1" @checked($social['active'] ?? true)> Active</label></div>@endfor</div></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">Homepage about copy</h2><label class="mt-4 block text-sm font-semibold">Heading<input name="settings[home.about.heading]" value="{{ $submittedSettings['home.about.heading'] ?? '' }}" class="admin-input mt-1.5"></label><label class="mt-4 block text-sm font-semibold">Copy (basic HTML supported; unsafe tags and links are removed)<textarea name="settings[home.about.html]" rows="8" class="admin-input mt-1.5 font-mono text-xs">{{ $submittedSettings['home.about.html'] ?? '' }}</textarea></label></section>
+
+    <section class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"><h2 class="text-base font-bold">SEO defaults</h2><div class="mt-4 grid gap-4 md:grid-cols-2">@foreach($fields as $key => $field)@if(str_starts_with($key, 'seo.'))<label class="text-sm font-semibold">{{ $field['label'] }}@if(str_ends_with($key, 'Description'))<textarea name="settings[{{ $key }}]" rows="3" class="admin-input mt-1.5">{{ $submittedSettings[$key] ?? '' }}</textarea>@else<input name="settings[{{ $key }}]" value="{{ $submittedSettings[$key] ?? '' }}" class="admin-input mt-1.5">@endif</label>@endif @endforeach</div></section>
+
+    <button class="sticky bottom-3 rounded-xl bg-sky-700 px-6 py-3 text-sm font-bold text-white shadow-lg">Save all settings</button>
 </form>
 @endsection

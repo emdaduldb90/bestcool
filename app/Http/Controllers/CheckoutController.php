@@ -6,17 +6,22 @@ use App\Models\DeliveryZone;
 use App\Models\Order;
 use App\Models\OrderItem;
 use App\Models\Product;
+use App\Models\OrderStatusHistory;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+use App\Support\StockLedger;
 use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
+use App\Services\Tracking\TrackingEventService;
+use Throwable;
+use Illuminate\Support\Facades\Log;
 
 class CheckoutController extends Controller
 {
-    public function create(): View|RedirectResponse
+    public function create(Request $request, TrackingEventService $tracking): View|RedirectResponse
     {
         $cart = session('cart', []);
         if ($cart === []) {
@@ -26,11 +31,13 @@ class CheckoutController extends Controller
         $items = Product::query()->active()->with('images')->whereIn('id', array_keys($cart))->get()->keyBy('id');
         $subtotal = collect($cart)->sum(fn ($quantity, $id) => (float) ($items->get($id)?->price ?? 0) * (int) $quantity);
         $zones = DeliveryZone::query()->where('is_active', true)->orderBy('sort_order')->orderBy('name')->get();
+        $checkoutEvent = $tracking->captureTrusted($request, 'InitiateCheckout', ['value' => $subtotal, 'currency' => 'BDT']);
+        $trackingCheckoutEventId = $checkoutEvent?->event_id;
 
-        return view('store.checkout', compact('items', 'cart', 'subtotal', 'zones'));
+        return view('store.checkout', compact('items', 'cart', 'subtotal', 'zones', 'trackingCheckoutEventId'));
     }
 
-    public function store(Request $request): RedirectResponse
+    public function store(Request $request, TrackingEventService $tracking): RedirectResponse
     {
         $data = $request->validate([
             'customer_name' => ['required', 'string', 'max:120'],
@@ -53,7 +60,7 @@ class CheckoutController extends Controller
         }
 
         $order = DB::transaction(function () use ($data, $cart, $zone) {
-            $products = Product::query()->with('images')->whereIn('id', array_keys($cart))->lockForUpdate()->get()->keyBy('id');
+            $products = Product::query()->with('images')->whereIn('id', array_keys($cart))->orderBy('id')->lockForUpdate()->get()->keyBy('id');
             if ($products->count() !== count($cart)) {
                 throw ValidationException::withMessages(['cart' => 'A cart item is no longer available. Please review your cart.']);
             }
@@ -83,6 +90,14 @@ class CheckoutController extends Controller
                 'payment_method' => 'COD',
                 'notes' => $data['notes'] ?? null,
             ]);
+            OrderStatusHistory::query()->create([
+                'order_id' => $order->id,
+                'actor_id' => Auth::id(),
+                'from_status' => null,
+                'to_status' => 'PENDING',
+                'note' => 'Order placed',
+                'created_at' => now(),
+            ]);
 
             foreach ($cart as $id => $quantity) {
                 $product = $products->get($id);
@@ -97,12 +112,27 @@ class CheckoutController extends Controller
                     'quantity' => (int) $quantity,
                     'line_total' => $lineTotal,
                 ]);
+                $previousStock = (int) $product->stock;
                 $product->decrement('stock', (int) $quantity);
                 $product->increment('sold_count', (int) $quantity);
+                StockLedger::record($product, $previousStock, -(int) $quantity, 'ORDER', 'Reserved for order '.$order->order_number);
             }
 
             return $order;
         });
+
+        try {
+            $tracking->captureTrusted($request, 'Purchase', [
+                'order_id' => $order->id,
+                'value' => (float) $order->total,
+                'currency' => 'BDT',
+                'items' => $order->items()->get(['product_id', 'quantity', 'unit_price'])->map(fn ($item) => [
+                    'item_id' => (string) $item->product_id, 'quantity' => (int) $item->quantity, 'price' => (float) $item->unit_price,
+                ])->all(),
+            ]);
+        } catch (Throwable $exception) {
+            Log::warning('Tracking event capture failed after order placement.', ['event' => 'Purchase', 'order_id' => $order->id]);
+        }
 
         session()->forget('cart');
         session(['last_order_number' => $order->order_number]);

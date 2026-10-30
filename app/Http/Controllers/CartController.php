@@ -7,6 +7,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
+use App\Services\Tracking\TrackingEventService;
 
 class CartController extends Controller
 {
@@ -24,7 +25,7 @@ class CartController extends Controller
         return view('store.cart', compact('items', 'subtotal'));
     }
 
-    public function store(Request $request, Product $product): JsonResponse|RedirectResponse
+    public function store(Request $request, Product $product, TrackingEventService $tracking): JsonResponse|RedirectResponse
     {
         abort_unless($product->is_active, 404);
         $quantity = max(1, (int) $request->input('quantity', 1));
@@ -36,11 +37,21 @@ class CartController extends Controller
         }
 
         $cart = session('cart', []);
-        $cart[$product->id] = min($product->stock, (int) ($cart[$product->id] ?? 0) + $quantity);
+        $previousQuantity = (int) ($cart[$product->id] ?? 0);
+        $cart[$product->id] = min($product->stock, $previousQuantity + $quantity);
+        $addedQuantity = max(0, (int) $cart[$product->id] - $previousQuantity);
         session(['cart' => $cart]);
+        $event = $addedQuantity > 0 ? $tracking->captureTrusted($request, 'AddToCart', [
+            'product_id' => (string) $product->id,
+            'product_sku' => $product->sku,
+            'quantity' => $addedQuantity,
+            'value' => (float) $product->price * $addedQuantity,
+            'currency' => 'BDT',
+            'items' => [['item_id' => (string) $product->id, 'quantity' => $addedQuantity, 'price' => (float) $product->price]],
+        ]) : null;
 
         return $request->expectsJson()
-            ? response()->json(['cartCount' => array_sum($cart), 'message' => 'Added to your cart.'])
+            ? response()->json(['cartCount' => array_sum($cart), 'message' => 'Added to your cart.', 'tracking' => $event ? ['event_id' => $event->event_id, 'event_name' => 'AddToCart', 'product_id' => (string) $product->id, 'product_sku' => $product->sku, 'quantity' => $addedQuantity, 'value' => (float) $product->price * $addedQuantity, 'currency' => 'BDT'] : null])
             : back()->with('success', 'Added to your cart.');
     }
 

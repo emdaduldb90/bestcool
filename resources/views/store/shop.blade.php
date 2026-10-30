@@ -1,9 +1,11 @@
 @extends('layouts.store')
-@section('title', 'Shop | '.($siteSettings['site.name'] ?? 'Best Cool Electronics'))
+@section('title', $category?->meta_title ?: ($shopPage?->meta_title ?: 'Shop | '.($siteSettings['site.name'] ?? 'Best Cool Electronics')))
+@section('description', $category?->meta_description ?: ($shopPage?->meta_description ?: ($siteSettings['seo.defaultDescription'] ?? '')))
+@if($category?->image) @section('og_image', filter_var($category->image, FILTER_VALIDATE_URL) ? $category->image : url(ltrim($category->image, '/'))) @elseif($shopPage?->og_image) @section('og_image', filter_var($shopPage->og_image, FILTER_VALIDATE_URL) ? $shopPage->og_image : url(ltrim($shopPage->og_image, '/'))) @endif
 
 @section('content')
 <div class="page-bg min-h-[65vh] py-7">
-    <div class="site-width">
+    <div class="site-width" @if(request()->filled('search')) data-track-search data-search-term="{{ request('search') }}" data-result-count="{{ $products->total() }}" @endif>
         <div class="mb-5 flex flex-wrap items-end justify-between gap-3">
             <div><p class="text-xs text-zinc-500">Home / Shop</p><h1 class="mt-1 text-2xl font-extrabold">{{ request('search') ? 'Search results' : 'Shop' }}</h1>@if(request('search'))<p class="mt-1 text-sm text-zinc-500">Results for “{{ request('search') }}”</p>@endif</div>
             <span class="text-sm text-zinc-500">{{ $products->total() }} products</span>

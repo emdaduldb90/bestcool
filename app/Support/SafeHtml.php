@@ -16,7 +16,8 @@ class SafeHtml
 
             $href = trim(html_entity_decode($hrefMatch[2], ENT_QUOTES | ENT_HTML5, 'UTF-8'));
             $scheme = parse_url($href, PHP_URL_SCHEME);
-            if ($scheme && ! in_array(strtolower($scheme), ['http', 'https', 'mailto', 'tel'], true)) {
+            if (str_contains($href, "\\") || preg_match('/[\\x00-\\x1F]/', $href) || str_starts_with($href, '//')
+                || ($scheme && ! in_array(strtolower($scheme), ['http', 'https', 'mailto', 'tel'], true))) {
                 return '<a>';
             }
 

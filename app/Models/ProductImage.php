@@ -9,7 +9,12 @@ class ProductImage extends Model
 {
     public $timestamps = false;
 
-    protected $fillable = ['id', 'product_id', 'url', 'alt', 'sort_order'];
+    protected $fillable = ['id', 'product_id', 'url', 'alt', 'sort_order', 'is_primary'];
+
+    protected function casts(): array
+    {
+        return ['is_primary' => 'boolean'];
+    }
 
     public function product(): BelongsTo
     {

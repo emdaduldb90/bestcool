@@ -11,7 +11,12 @@ class Category extends Model
 
     protected $keyType = 'string';
 
-    protected $fillable = ['id', 'name', 'slug', 'image', 'created_at', 'updated_at'];
+    protected $fillable = ['id', 'name', 'slug', 'image', 'is_active', 'sort_order', 'meta_title', 'meta_description', 'created_at', 'updated_at'];
+
+    protected function casts(): array
+    {
+        return ['is_active' => 'boolean'];
+    }
 
     public function products(): HasMany
     {

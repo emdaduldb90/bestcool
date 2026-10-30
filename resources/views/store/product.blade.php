@@ -1,10 +1,11 @@
 @extends('layouts.store')
-@section('title', $product->name.' | '.($siteSettings['site.name'] ?? 'Best Cool Electronics'))
-@section('description', strip_tags($product->description ?? ''))
+@section('title', $product->meta_title ?: $product->name.' | '.($siteSettings['site.name'] ?? 'Best Cool Electronics'))
+@section('description', $product->meta_description ?: \Illuminate\Support\Str::limit(strip_tags($product->description ?? ''), 300))
+@section('og_image', $product->images->first()?->url ? (filter_var($product->images->first()->url, FILTER_VALIDATE_URL) ? $product->images->first()->url : url(ltrim($product->images->first()->url, '/'))) : '')
 
 @section('content')
 @php($assetUrl = fn ($path) => filter_var($path, FILTER_VALIDATE_URL) ? $path : asset(ltrim($path, '/')))
-<div class="site-width py-7">
+<div class="site-width py-7" data-track-view-content data-product-id="{{ $product->id }}" data-product-sku="{{ $product->sku }}" data-value="{{ $product->price }}" data-currency="BDT">
     <p class="mb-5 text-xs text-zinc-500"><a href="{{ route('home') }}">Home</a> / <a href="{{ route('shop.index') }}">Shop</a> / {{ $product->name }}</p>
     <div class="grid items-start gap-8 md:grid-cols-2">
         <div>
@@ -34,6 +35,7 @@
                 <h2 class="text-lg font-bold">Description</h2><div class="content-rich mt-3">{!! \App\Support\SafeHtml::clean($product->description) !!}</div>
             </div>
             @if($product->specifications)<div class="mt-6 border-t border-zinc-200 pt-5"><h2 class="text-lg font-bold">Specifications</h2><div class="content-rich mt-3">{!! \App\Support\SafeHtml::clean($product->specifications) !!}</div></div>@endif
+            @if(count($product->questions ?? []))<section class="mt-6 border-t border-zinc-200 pt-5" aria-labelledby="product-faq"><h2 id="product-faq" class="text-lg font-bold">Product questions</h2><div class="mt-3 divide-y divide-zinc-200 rounded-lg border border-zinc-200 bg-white">@foreach($product->questions as $item)@if(!empty($item['question']) && !empty($item['answer']))<details class="group p-4"><summary class="cursor-pointer font-semibold">{{ $item['question'] }}</summary><div class="content-rich pt-3">{!! \App\Support\SafeHtml::clean($item['answer']) !!}</div></details>@endif @endforeach</div></section>@endif
         </div>
     </div>
     @if($related->isNotEmpty())

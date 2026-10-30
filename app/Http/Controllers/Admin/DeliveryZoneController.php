@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\DeliveryZone;
+use App\Support\AdminAudit;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -26,7 +27,8 @@ class DeliveryZoneController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $data = $this->validated($request);
-        DeliveryZone::query()->create(['id' => (string) Str::uuid()] + $this->attributes($data));
+        $zone = DeliveryZone::query()->create(['id' => (string) Str::uuid()] + $this->attributes($data));
+        AdminAudit::record('delivery_zone.created', 'Created delivery zone '.$zone->name.'.', $zone);
 
         return redirect()->route('admin.delivery-zones.index')->with('success', 'Delivery zone created.');
     }
@@ -39,6 +41,7 @@ class DeliveryZoneController extends Controller
     public function update(Request $request, DeliveryZone $deliveryZone): RedirectResponse
     {
         $deliveryZone->update($this->attributes($this->validated($request)));
+        AdminAudit::record('delivery_zone.updated', 'Updated delivery zone '.$deliveryZone->name.'.', $deliveryZone);
 
         return redirect()->route('admin.delivery-zones.index')->with('success', 'Delivery zone updated.');
     }
@@ -49,6 +52,7 @@ class DeliveryZoneController extends Controller
             return back()->with('error', 'This delivery zone is used by existing orders. Deactivate it instead.');
         }
 
+        AdminAudit::record('delivery_zone.deleted', 'Deleted delivery zone '.$deliveryZone->name.'.', $deliveryZone);
         $deliveryZone->delete();
 
         return redirect()->route('admin.delivery-zones.index')->with('success', 'Delivery zone deleted.');

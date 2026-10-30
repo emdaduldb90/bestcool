@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Models\User;
+use App\Models\Role;
 use Illuminate\Console\Command;
 
 class PromoteUserToAdmin extends Command
@@ -33,6 +34,9 @@ class PromoteUserToAdmin extends Command
         }
 
         $user->forceFill(['is_admin' => true])->save();
+        if ($role = Role::query()->where('slug', 'super-admin')->first()) {
+            $user->roles()->syncWithoutDetaching([$role->id]);
+        }
         $this->info('Admin access granted.');
 
         return self::SUCCESS;

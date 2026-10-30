@@ -12,6 +12,7 @@ use App\Models\Product;
 use App\Models\Setting;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Tests\TestCase;
@@ -64,6 +65,34 @@ class AdminPanelTest extends TestCase
         $this->assertDatabaseHas('categories', ['slug' => 'admin-category', 'image' => '/uploads/category.webp']);
     }
 
+    public function test_category_image_upload_uses_a_unique_public_path(): void
+    {
+        $this->actingAs($this->admin())->post(route('admin.categories.store'), [
+            'name' => 'Uploaded category', 'slug' => '', 'image_file' => UploadedFile::fake()->image('category.png'),
+        ])->assertRedirect(route('admin.categories.index'));
+
+        $category = Category::query()->where('slug', 'uploaded-category')->firstOrFail();
+        $this->assertMatchesRegularExpression('#^/uploads/categories/[0-9a-f-]{36}\\.png$#i', $category->image);
+        $path = public_path(ltrim($category->image, '/'));
+        $this->assertFileExists($path);
+        @unlink($path);
+    }
+
+    public function test_category_can_be_hidden_and_its_image_cleared(): void
+    {
+        $category = Category::query()->create([
+            'id' => (string) Str::uuid(), 'name' => 'Old category', 'slug' => 'old-category',
+            'image' => '/uploads/categories/old.webp', 'is_active' => true,
+        ]);
+
+        $this->actingAs($this->admin())->put(route('admin.categories.update', $category), [
+            'name' => 'Hidden category', 'slug' => 'hidden-category', 'image' => '',
+            'sort_order' => 0, 'is_active' => '0',
+        ])->assertRedirect(route('admin.categories.index'));
+
+        $this->assertDatabaseHas('categories', ['id' => $category->id, 'is_active' => false, 'image' => null]);
+    }
+
     public function test_admin_can_create_a_delivery_zone(): void
     {
         $this->actingAs($this->admin())->post(route('admin.delivery-zones.store'), [
@@ -77,7 +106,7 @@ class AdminPanelTest extends TestCase
     {
         $this->actingAs($this->admin())->put(route('admin.settings.update'), [
             'settings' => [
-                'site.name' => 'Best Cool Electronics', 'site.tagline' => 'Home essentials',
+                'site.name' => 'Updated Storefront Name', 'site.tagline' => 'Home essentials',
                 'contact.phone' => '01700000000', 'contact.email' => 'info@example.com',
                 'contact.address' => 'Dhaka', 'whatsapp.number' => '', 'whatsapp.message' => '',
                 'seo.defaultTitle' => 'Best Cool', 'seo.defaultDescription' => 'Electronics store',
@@ -85,6 +114,7 @@ class AdminPanelTest extends TestCase
         ])->assertRedirect(route('admin.settings.edit'));
 
         $this->assertSame('01700000000', Setting::query()->findOrFail('contact.phone')->value);
+        $this->get(route('home'))->assertOk()->assertSee('Updated Storefront Name');
     }
 
     public function test_admin_can_add_a_homepage_banner(): void

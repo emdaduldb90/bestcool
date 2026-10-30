@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\ContentPage;
 use App\Models\PageBlock;
+use App\Support\AdminAudit;
+use App\Support\SafeUrl;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -25,10 +27,11 @@ class BannerController extends Controller
     {
         $data = $this->validated($request, true);
         $page = ContentPage::query()->where('slug', 'home')->firstOrFail();
-        $page->blocks()->create([
+        $banner = $page->blocks()->create([
             'id' => (string) Str::uuid(), 'type' => 'BANNER', 'content' => $this->content($request, $data),
             'sort_order' => $data['sort_order'], 'is_enabled' => $request->boolean('is_enabled'),
         ]);
+        AdminAudit::record('banner.created', 'Added a homepage banner.', $banner);
 
         return redirect()->route('admin.banners.index')->with('success', 'Homepage banner added.');
     }
@@ -41,6 +44,7 @@ class BannerController extends Controller
             'content' => $this->content($request, $data, $banner),
             'sort_order' => $data['sort_order'], 'is_enabled' => $request->boolean('is_enabled'),
         ]);
+        AdminAudit::record('banner.updated', 'Updated a homepage banner.', $banner);
 
         return redirect()->route('admin.banners.index')->with('success', 'Homepage banner updated.');
     }
@@ -48,6 +52,7 @@ class BannerController extends Controller
     public function destroy(PageBlock $banner): RedirectResponse
     {
         abort_unless($banner->type === 'BANNER', 404);
+        AdminAudit::record('banner.deleted', 'Deleted a homepage banner.', $banner);
         $banner->delete();
 
         return redirect()->route('admin.banners.index')->with('success', 'Homepage banner deleted.');
@@ -105,11 +110,7 @@ class BannerController extends Controller
 
     private function safeImageUrl(string $url): bool
     {
-        if (str_starts_with($url, '/uploads/')) {
-            return ! str_contains($url, '..');
-        }
-        return filter_var($url, FILTER_VALIDATE_URL) !== false
-            && in_array(strtolower((string) parse_url($url, PHP_URL_SCHEME)), ['http', 'https'], true);
+        return SafeUrl::image($url);
     }
 
     private function safeLink(string $link): bool

@@ -10,7 +10,9 @@ class EnsureAdmin
 {
     public function handle(Request $request, Closure $next): Response
     {
-        abort_unless($request->user()?->isAdmin(), 403);
+        $user = $request->user();
+        $user?->loadMissing('roles.permissions');
+        abort_unless($user?->canAccessAdmin(), 403);
 
         return $next($request);
     }

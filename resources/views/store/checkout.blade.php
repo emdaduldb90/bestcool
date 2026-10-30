@@ -1,7 +1,7 @@
 @extends('layouts.store')
 @section('title', 'Checkout')
 @section('content')
-<div class="page-bg min-h-[60vh] py-8"><div class="site-width">
+<div class="page-bg min-h-[60vh] py-8"><div class="site-width" data-track-initiate-checkout data-event-id="{{ $trackingCheckoutEventId ?? '' }}" data-value="{{ $subtotal }}" data-currency="BDT">
     <p class="text-xs text-zinc-500">Home / Cart / Checkout</p><h1 class="mb-6 mt-1 text-2xl font-extrabold">Checkout</h1>
     @if($errors->any())<div class="mb-5 rounded border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700"><p class="font-bold">Please check the details below.</p><ul class="mt-2 list-inside list-disc">@foreach($errors->all() as $error)<li>{{ $error }}</li>@endforeach</ul></div>@endif
     <form action="{{ route('checkout.store') }}" method="POST" class="grid items-start gap-5 lg:grid-cols-[1fr_360px]">@csrf

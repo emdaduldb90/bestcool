@@ -1,0 +1,7 @@
+@extends('admin.layout')
+@section('page-title', 'Brands')
+@section('content')
+<p class="mb-4 text-sm text-slate-500">Brand management uses the existing product brand field, so current filters and product records stay compatible.</p>
+<form method="GET" class="mb-4 flex gap-2"><input name="search" value="{{ request('search') }}" placeholder="Search brands" class="admin-input w-full max-w-sm"><button class="rounded-lg border bg-white px-4 text-sm font-bold">Search</button></form>
+<div class="overflow-hidden rounded-xl border bg-white"><div class="overflow-x-auto"><table class="w-full text-left text-sm"><thead class="bg-slate-50 text-xs uppercase text-slate-500"><tr><th class="px-4 py-3">Brand</th><th class="px-4 py-3">Products</th><th class="px-4 py-3">Rename brand</th></tr></thead><tbody class="divide-y">@forelse($brands as $brand)<tr><td class="px-4 py-3 font-bold">{{ $brand->brand }}</td><td class="px-4 py-3">{{ $brand->products_count }}</td><td class="px-4 py-3"><form method="POST" action="{{ route('admin.brands.update') }}" class="flex flex-wrap gap-2">@csrf @method('PATCH')<input type="hidden" name="from" value="{{ $brand->brand }}"><input name="to" value="{{ $brand->brand }}" required maxlength="190" class="admin-input min-w-48"><button class="rounded-lg bg-slate-900 px-3 py-2 text-xs font-bold text-white">Save name</button></form></td></tr>@empty<tr><td colspan="3" class="p-8 text-center text-slate-500">No brand names found.</td></tr>@endforelse</tbody></table></div><div class="border-t p-3">{{ $brands->links() }}</div></div>
+@endsection

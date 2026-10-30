@@ -24,13 +24,13 @@ class AuthController extends Controller
             'password' => ['required', 'string'],
         ]);
 
-        if (! Auth::attempt($credentials, $request->boolean('remember'))) {
+        if (! Auth::attempt($credentials + ['is_active' => true], $request->boolean('remember'))) {
             return back()->withErrors(['email' => 'These sign-in details do not match our records.'])->onlyInput('email');
         }
 
         $request->session()->regenerate();
 
-        $destination = Auth::user()?->isAdmin() ? route('admin.dashboard') : route('account.index');
+        $destination = Auth::user()?->canAccessAdmin() ? route('admin.dashboard') : route('account.index');
 
         return redirect()->intended($destination);
     }
