@@ -1,0 +1,7 @@
+@extends('layouts.store')
+@section('title', 'My Account')
+@section('content')
+<div class="page-bg min-h-[60vh] py-8"><div class="site-width"><div class="mb-6 flex flex-wrap items-center justify-between gap-3"><div><p class="text-xs text-zinc-500">Home / Account</p><h1 class="mt-1 text-2xl font-extrabold">Hello, {{ auth()->user()->name }}</h1></div><form action="{{ route('logout') }}" method="POST">@csrf<button class="rounded border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold">Sign out</button></form></div>
+    <section class="rounded-lg border border-zinc-200 bg-white p-5"><h2 class="text-lg font-bold">My orders</h2>@if($orders->isEmpty())<p class="mt-4 text-sm text-zinc-500">No orders yet. <a href="{{ route('shop.index') }}" class="text-brand underline">Browse products</a>.</p>@else<div class="mt-4 overflow-x-auto"><table class="w-full min-w-[600px] text-left text-sm"><thead><tr class="border-b text-xs uppercase text-zinc-400"><th class="py-3">Order</th><th>Date</th><th>Status</th><th class="text-right">Total</th></tr></thead><tbody>@foreach($orders as $order)<tr class="border-b border-zinc-100"><td class="py-3 font-semibold">{{ $order->order_number }}</td><td>{{ $order->created_at->format('M j, Y') }}</td><td>{{ $order->status }}</td><td class="text-right font-bold">৳{{ number_format((float)$order->total,0) }}</td></tr>@endforeach</tbody></table></div><div class="mt-4">{{ $orders->links() }}</div>@endif</section>
+</div></div>
+@endsection

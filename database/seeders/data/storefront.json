@@ -1,0 +1,1610 @@
+{
+    "categories": [
+        {
+            "id": "cmqc6bqy20005umyo35mw2vea",
+            "name": "Air Conditioner",
+            "slug": "air-conditioner",
+            "image": "/uploads/1790329849774-97eae54fcf48.jpg.webp",
+            "createdAt": "2026-06-13 09:49:30.795",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cms1v46py00033ap7cr4c5oxh",
+            "name": "Air Fryer",
+            "slug": "air-fryer",
+            "image": "/uploads/1790329869350-ad1c7e391550.jpg.webp",
+            "createdAt": "2026-07-26 13:57:25.127",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmub7ewea002p3affevekf4oz",
+            "name": "Dehumidifier",
+            "slug": "dehumidifier",
+            "image": "/uploads/1790329744480-06f065d129bd.jpg.webp",
+            "createdAt": "2026-09-21 12:11:00.610",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmu9wpo4n000t3affl02k4g0z",
+            "name": "Electric Cooker",
+            "slug": "electric-cooker",
+            "image": "/uploads/1790329799554-98e4fb02e319.png.webp",
+            "createdAt": "2026-09-20 14:23:41.159",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmtg3nufi00023abeuosdzvp9",
+            "name": "Hair Dryer",
+            "slug": "hair-dryer",
+            "image": "/uploads/1790329649258-8065efc6e820.jpg.webp",
+            "createdAt": "2026-08-30 17:45:08.046",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmvo93f2p0000u51422cyjs9x",
+            "name": "Home Appliances",
+            "slug": "home-appliances",
+            "image": null,
+            "createdAt": "2026-10-25 19:58:46.801",
+            "updatedAt": "2026-10-25 19:58:46.801"
+        },
+        {
+            "id": "cmqc6fqym000cumyoym4508en",
+            "name": "Iron",
+            "slug": "iron",
+            "image": "/uploads/1781344356537-9d9e5ddc4e3b.jpg.webp",
+            "createdAt": "2026-06-13 09:52:37.439",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqc6ef130009umyou4ibpoc3",
+            "name": "Microwave Oven",
+            "slug": "microwave-oven",
+            "image": "/uploads/1781344294025-2832e2b05e80.jpg.webp",
+            "createdAt": "2026-06-13 09:51:35.320",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqc6eu5b000aumyoicpncpfj",
+            "name": "Mixer Grinder",
+            "slug": "mixer-grinder",
+            "image": "/uploads/1781344313825-ab925fcf13a9.jpg.webp",
+            "createdAt": "2026-06-13 09:51:54.912",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqc6gbdz000dumyokrusb6n9",
+            "name": "Multi Cooker",
+            "slug": "multi-cooker",
+            "image": "/uploads/1781344382802-1e41cab17009.jpg.webp",
+            "createdAt": "2026-06-13 09:53:03.911",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqc6chwg0006umyo7qgt8qrl",
+            "name": "Television (TV)",
+            "slug": "television-tv",
+            "image": "/uploads/1781344204503-0986d6cc5bee.jpg.webp",
+            "createdAt": "2026-06-13 09:50:05.728",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqc6e2ny0008umyoawdwqpnh",
+            "name": "Washing Machine",
+            "slug": "washing-machine",
+            "image": "/uploads/1781344278271-55a576055ba7.jpg.webp",
+            "createdAt": "2026-06-13 09:51:19.295",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        }
+    ],
+    "products": [
+        {
+            "id": "cmvo9bm3j000pu55g262mo87t",
+            "name": "Touching ZNT-111 1500W PTC Fan Heater",
+            "slug": "touching-znt-111-1500w-ptc-fan-heater",
+            "brand": "Touching",
+            "description": "<p><br /></p>",
+            "sku": "ZNT-111",
+            "regularPrice": "4500.00",
+            "salePrice": "3150.00",
+            "stock": 500,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmvo93f2p0000u51422cyjs9x",
+            "createdAt": "2026-10-25 20:05:09.151",
+            "updatedAt": "2026-10-28 06:27:57.459",
+            "specifications": "<p>The Touching ZNT-111 PTC fan heater provides portable indoor heating with remote control and 90-degree oscillation.</p><ul><li>Maximum rated power: 1,500 W</li><li>Heat settings: 800 W / 1,500 W</li><li>Temperature setting: 10–35 °C</li><li>ECO mode and fan-only mode</li><li>Automatic tip-over protection</li><li>ABS housing, UK plug</li><li>Power supply: AC 220–240 V, 50/60 Hz</li><li>Dimensions: 14 × 14 × 25 cm</li><li>Net weight: 1.1 kg</li></ul>",
+            "questions": []
+        },
+        {
+            "id": "cmvo9bm0b000ju55g2f9sqtsy",
+            "name": "National JS-72BC-H 6 Feet Air Curtain",
+            "slug": "national-js-72bc-h-6-feet-air-curtain",
+            "brand": "National",
+            "description": "<p>The National JS-72BC-H 6-foot air curtain is designed for commercial entrances. Its high-velocity airflow helps reduce the exchange of indoor and outdoor air and helps limit dust and flying insects entering through open doors.</p><ul><li>6 ft / 72 in wide</li><li>Air velocity: 15 m/s</li><li>Motor speed: 1,500 RPM</li><li>Remote control</li><li>Power: 200 W, 220 V / 50 Hz</li><li>Unit weight: 12.00 kg</li></ul>",
+            "sku": "JS-72BC-H",
+            "regularPrice": "38500.00",
+            "salePrice": "26950.00",
+            "stock": 500,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmvo93f2p0000u51422cyjs9x",
+            "createdAt": "2026-10-25 20:05:09.035",
+            "updatedAt": "2026-10-26 09:02:06.589",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmvo9blzq000du55g1luhf1yp",
+            "name": "National JS-60BC-H 5 Feet Air Curtain",
+            "slug": "national-js-60bc-h-5-feet-air-curtain",
+            "brand": "National",
+            "description": "<p>The National JS-60BC-H 5-foot air curtain is designed for commercial entrances. Its high-velocity airflow helps reduce the exchange of indoor and outdoor air and helps limit dust and flying insects entering through open doors.</p><ul><li>5 ft / 60 in wide</li><li>Air velocity: 15 m/s</li><li>Motor speed: 1,500 RPM</li><li>Remote control</li><li>Power: 180 W, 220 V / 50 Hz</li><li>Unit weight: 10.50 kg</li></ul>",
+            "sku": "JS-60BC-H",
+            "regularPrice": "32500.00",
+            "salePrice": "22750.00",
+            "stock": 500,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmvo93f2p0000u51422cyjs9x",
+            "createdAt": "2026-10-25 20:05:09.014",
+            "updatedAt": "2026-10-27 12:43:27.579",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmvo9blzm0007u55gtk8pv3r4",
+            "name": "National JS-48BC-H 4 Feet Air Curtain",
+            "slug": "national-js-48bc-h-4-feet-air-curtain",
+            "brand": "National",
+            "description": "<p>The National JS-48BC-H 4-foot air curtain is designed for commercial entrances. Its high-velocity airflow helps reduce the exchange of indoor and outdoor air and helps limit dust and flying insects entering through open doors.</p><ul><li>4 ft / 48 in wide</li><li>Air velocity: 15 m/s</li><li>Motor speed: 1,500 RPM</li><li>Remote control</li><li>Power: 135 W, 220 V / 50 Hz</li><li>Unit weight: 8.00 kg</li></ul>",
+            "sku": "JS-48BC-H",
+            "regularPrice": "28500.00",
+            "salePrice": "19950.00",
+            "stock": 500,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmvo93f2p0000u51422cyjs9x",
+            "createdAt": "2026-10-25 20:05:09.010",
+            "updatedAt": "2026-10-25 20:26:15.784",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmvo9blpo0001u55gccam4kej",
+            "name": "National JS-36BC-H 3 Feet Air Curtain",
+            "slug": "national-js-36bc-h-3-feet-air-curtain",
+            "brand": "National",
+            "description": "<p>The National JS-36BC-H 3-foot air curtain is designed for commercial entrances. Its high-velocity airflow helps reduce the exchange of indoor and outdoor air and helps limit dust and flying insects entering through open doors.</p><ul><li>3 ft / 36 in wide</li><li>Air velocity: 15 m/s</li><li>Motor speed: 1,500 RPM</li><li>Remote control</li><li>Power: 110 W, 220 V / 50 Hz</li><li>Unit weight: 6.30 kg</li></ul>",
+            "sku": "JS-36BC-H",
+            "regularPrice": "25000.00",
+            "salePrice": "17500.00",
+            "stock": 500,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmvo93f2p0000u51422cyjs9x",
+            "createdAt": "2026-10-25 20:05:08.652",
+            "updatedAt": "2026-10-25 20:26:15.784",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmv0zk8wv000j3aypd0p1xo9a",
+            "name": "Elite 5 Ton Cassette Type Non Inverter AC – (ECA60CR)",
+            "slug": "elite-5-ton-cassette-type-non-inverter-ac-eca60cr",
+            "brand": "Midea",
+            "description": "<span style=\"color:lab(98.26 0 0);font-size:20px;font-weight:600\">Key Specifications</span><ul><li><span style=\"font-weight:bold\">Cooling Capacity:</span> 60,000 BTU/hr (5 Ton)</li><li><span style=\"font-weight:bold\">Coverage Area:</span> Up to 600 square feet</li><li><span style=\"font-weight:bold\">Compressor:</span> Rotary LAMDA compressor</li><li><span style=\"font-weight:bold\">Refrigerant Type:</span> R-410A (3.4 kg)</li><li><span style=\"font-weight:bold\">Power Supply:</span> 220-240V / 1Ph / 50Hz</li><li><span style=\"font-weight:bold\">Standard Input:</span> 6,500W</li><li><span style=\"font-weight:bold\">Energy Rating:</span> 3-Star</li><li><span style=\"font-weight:bold\">Airflow &amp; Features:</span> Cool-Surround 360-degree airflow panel, built-in drain pump, flex wind control, and high ambient cooling.<span></span></li></ul><h2>Physical Dimensions &amp; Weight</h2><ul><li><span style=\"font-weight:bold\">Indoor Unit:</span> 840 x 840 x 288 mm | Weight: 33.18 kg</li><li><span style=\"font-weight:bold\">Front Panel Dimension:</span> 950 x 950 x 55 mm</li><li><span style=\"font-weight:bold\">Outdoor Unit:</span> 980 x 410 x 1210 mm | Weight: 96.2 kg<span> </span></li></ul><h2>Warranty &amp; Inclusions</h2><ul><li><span style=\"font-weight:bold\">Warranty:</span> 5 years on the compressor, 2 years on spare parts support, and 1 year for service.<span></span></li><li><span style=\"font-weight:bold\">Inclusions:</span> Includes standard delivery and installation with up to 10 feet of copper pipe.</li></ul>",
+            "sku": null,
+            "regularPrice": "201000.00",
+            "salePrice": "189600.00",
+            "stock": 50,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-09 13:13:13.759",
+            "updatedAt": "2026-10-17 19:07:23.643",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmv0zg4ib000f3ayp6oi8ybdc",
+            "name": "Elite 4 Ton Cassette Type Non Inverter AC – (ECA48CR)",
+            "slug": "elite-4-ton-cassette-type-non-inverter-ac-eca48cr",
+            "brand": "Midea",
+            "description": "<span style=\"color:lab(98.26 0 0);font-size:20px;font-weight:600\">Key Specifications</span><ul><li><span style=\"font-weight:bold\">Type:</span> Non-Inverter, Cooling-Only Cassette AC</li><li><span style=\"font-weight:bold\">Cooling Capacity:</span> 48,000 BTU/hr</li><li><span style=\"font-weight:bold\">Refrigerant:</span> R-410A (3 kg)</li><li><span style=\"font-weight:bold\">Compressor:</span> Rotary (LAMDA)</li><li><span style=\"font-weight:bold\">Power Supply:</span> 380–410V / 3Ph / 50Hz (Standard input: 5150W)</li><li><span style=\"font-weight:bold\">Indoor Unit Dimensions:</span> 840 × 840 × 288 mm (Weight: 33.18 kg)</li><li><span style=\"font-weight:bold\">Outdoor Unit Dimensions:</span> 980 × 410 × 1210 mm (Weight: 93.2 kg)</li><li><span style=\"font-weight:bold\">Best Suited For:</span> Large offices, showrooms, restaurants, and conference halls.<span></span></li></ul><h2>Warranty &amp; Extras</h2><ul><li><span style=\"font-weight:bold\">Warranty:</span> 5 years on the compressor, 2 years on spare parts, and 1 year for service.<span> </span></li><li><span style=\"font-weight:bold\">Installation:</span> Includes free installation up to 10 feet of copper pipe.</li></ul>",
+            "sku": null,
+            "regularPrice": "175000.00",
+            "salePrice": "168700.00",
+            "stock": 50,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-09 13:10:01.427",
+            "updatedAt": "2026-10-17 19:07:23.666",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmv0zbdx1000b3ayplbmaaiij",
+            "name": "Midea 1.5 Ton Cassette Type Non Inverter AC – (MCA18CR)",
+            "slug": "midea-1-5-ton-cassette-type-non-inverter-ac-mca18cr",
+            "brand": "Midea",
+            "description": "<span style=\"color:lab(98.26 0 0);font-size:20px;font-weight:600\">Key Specifications</span><ul><li><span style=\"font-weight:bold\">Capacity:</span> 1.5 Ton (18,000 BTU/h cooling-only)<span> </span></li><li><span style=\"font-weight:bold\">Type:</span> Ceiling-mounted cassette, non-inverter<span> </span></li><li><span style=\"font-weight:bold\">Compressor:</span> Rotary GMCC/LAMDA type<span> </span></li><li><span style=\"font-weight:bold\">Refrigerant:</span> Eco-friendly R410 / R410A<span></span></li><li><span style=\"font-weight:bold\">Power Supply:</span> 220–240V, 1Ph, 50Hz<span> </span></li><li><span style=\"font-weight:bold\">Power Consumption:</span> Standard input around 1,617W – 1,693W (rated input ~1,778W)<span> </span></li><li><span style=\"font-weight:bold\">Airflow:</span> 360° airflow / multi-speed indoor distribution<span> </span></li><li><span style=\"font-weight:bold\">Dimensions:</span><ul><li>Indoor unit: 840 x 840 x 246 mm (Net weight: 23 kg)</li><li>Outdoor unit: 890 x 330 x 600 mm (Net weight: 40.2 kg)</li><li>Front panel: 950 x 950 x 55 mm<span> </span></li></ul></li><li><span style=\"font-weight:bold\">Warranty:</span> 5 years on the compressor, 1 year on parts and service.</li></ul>",
+            "sku": null,
+            "regularPrice": "102000.00",
+            "salePrice": "94400.00",
+            "stock": 50,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-09 13:06:20.342",
+            "updatedAt": "2026-10-17 19:07:23.679",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmv0z5tj500073ayp3ywmyp5b",
+            "name": "Midea 2.5 Ton Cassette Type Non Inverter AC – (MCA30CR)",
+            "slug": "midea-2-5-ton-cassette-type-non-inverter-ac-mca30cr",
+            "brand": "Midea",
+            "description": "<span style=\"color:lab(98.26 0 0);font-size:20px;font-weight:600\">Key Specifications</span><ul><li><span style=\"font-weight:bold\">Cooling Capacity:</span> 30,000 BTU/hr (2.5 Ton)</li><li><span style=\"font-weight:bold\">Type:</span> Non-inverter, 4-way ceiling cassette type</li><li><span style=\"font-weight:bold\">Compressor:</span> Rotary (LAMDA / GMCC)</li><li><span style=\"font-weight:bold\">Refrigerant:</span> R410A</li><li><span style=\"font-weight:bold\">Power Supply:</span> 220–240V / 1Ph / 50Hz</li><li><span style=\"font-weight:bold\">Input Power:</span> ~3,650W (standard input)</li><li><span style=\"font-weight:bold\">Air Circulation:</span> 1,700 m³/h</li><li><span style=\"font-weight:bold\">Indoor Unit Dimensions / Weight:</span> 840 × 245 × 840 mm (25 kg)</li><li><span style=\"font-weight:bold\">Outdoor Unit Dimensions / Weight:</span> 920 × 360 × 710 mm (55 kg)<span> </span></li></ul><h2>Warranties &amp; Features</h2><ul><li><span style=\"font-weight:bold\">Residential Warranty:</span> 12 years on the compressor, 4 years on spare parts, and 2 years on service (via Elite Midea).<span> </span></li><li><span style=\"font-weight:bold\">Commercial Warranty:</span> 3 years on the compressor, 1 year on spare parts, and 1 year on service.<span></span></li><li><span style=\"font-weight:bold\">Features:</span> 4-way uniform air distribution, wireless remote control, anti-bacterial washable filter, and auto-restart function.</li></ul>",
+            "sku": null,
+            "regularPrice": "155000.00",
+            "salePrice": "142900.00",
+            "stock": 50,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-09 13:02:00.642",
+            "updatedAt": "2026-10-17 19:07:23.691",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmv0yzi7u00033ayp84ymsucy",
+            "name": "Midea 2 Ton Cassette Type Non Inverter AC – (MCA24CR)",
+            "slug": "midea-2-ton-cassette-type-non-inverter-ac-mca24cr",
+            "brand": "Midea",
+            "description": "<ul class=\"KsbFXc U6u95\"><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Cooling Capacity:</span> 24,000 BTU/hr (2.0 Ton), ideal for spaces around 180 to 240 sq. ft.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Technology:</span> Non-inverter (On-Off) cooling-only system.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Power Input:</span> 2,550W (Standard current: 12.7A, Max: 15.1A).</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Power Supply:</span> 220–240V, 1 Phase, 50Hz</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Refrigerant:</span> R410A (1.2 kg)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Compressor:</span> Rotary (GMCC / LAMDA brand)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Airflow:</span> 360-degree multi-way airflow (1600/1500/1400 m³/h)<br /><br /><br /></span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Control &amp; Features:</span> Wireless remote control, built-in drain pump, anti-bacterial washable filter, and auto-restart function.<br /><br /><br /></span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\">Warranty: 5 - year compressor warranty along with a 1 year parts and service official warranty.</span></li></ul>",
+            "sku": null,
+            "regularPrice": "130000.00",
+            "salePrice": "115900.00",
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-09 12:57:06.043",
+            "updatedAt": "2026-10-17 19:07:23.705",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmuqx5nza001i3ag0paiwmy0k",
+            "name": "Midea 2 Ton Inverter Wall Type AC (Cooling only)",
+            "slug": "midea-2-ton-inverter-wall-type-ac-cooling-only",
+            "brand": "Midea",
+            "description": "<li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Cooling Capacity:</span> 24,000 BTU/hr (2 Ton)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Type:</span> Intelligent Inverter Wall Type.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Compressor:</span> Rotary Inverter.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Refrigerant:</span> R-32.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Coverage:</span> Ideal for rooms up to </span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(108, 108, 108);font-family:Arial, sans-serif, &quot;Noto Color Emoji&quot;;background-color:rgb(255, 255, 255)\">200–260 sq ft.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\">Features<ul class=\"KsbFXc U6u95\"><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">I-Feel Technology:</span> Dual temperature sensors (one on the unit and one on the remote) to maintain precise temperature near you.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Gold Fin Coating:</span> Corrosion-resistant condenser coating to protect against rain and humidity.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Turbo Mode:</span> Fast cooling performance.</span></li></ul></span></li>",
+            "sku": null,
+            "regularPrice": "93990.00",
+            "salePrice": "67900.00",
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-02 12:08:12.454",
+            "updatedAt": "2026-10-17 19:07:23.716",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmuqx0592000w3ag084q842qa",
+            "name": "Midea 1.5 Ton Inverter Wall Type AC (Cooling only)",
+            "slug": "midea-1-5-ton-inverter-wall-type-ac-cooling-only",
+            "brand": "Midea",
+            "description": "<li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Cooling Capacity:</span> 18,000 BTU/hr (1.5 Ton)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Type:</span> Intelligent Inverter Wall Type.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Compressor:</span> Rotary Inverter.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Refrigerant:</span> R-32.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Coverage:</span> Ideal for rooms up to </span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(108, 108, 108);font-family:Arial, sans-serif, &quot;Noto Color Emoji&quot;;background-color:rgb(255, 255, 255)\">150 - 180 sq ft.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\">Features<ul class=\"KsbFXc U6u95\"><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">I-Feel Technology:</span> Dual temperature sensors (one on the unit and one on the remote) to maintain precise temperature near you.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Gold Fin Coating:</span> Corrosion-resistant condenser coating to protect against rain and humidity.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5)\"><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(100 0 0 / 0.1) lab(100 0 0 / 0.1) rgb(10, 10, 10);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);font-weight:700\">Turbo Mode:</span> Fast cooling performance.</span></li></ul></span></li>",
+            "sku": null,
+            "regularPrice": "68000.00",
+            "salePrice": "57900.00",
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-10-02 12:03:54.902",
+            "updatedAt": "2026-10-17 19:07:23.734",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmucofs83000e3arwrmdmvvza",
+            "name": "Midea 1 Ton Inverter Split Type AC (Only Cooling)",
+            "slug": "midea-1-ton-inverter-split-type-ac-only-cooling",
+            "brand": "Midea",
+            "description": "<li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Cooling Capacity:</span> 12,000 BTU/hr (1 Ton)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Type:</span> Intelligent Inverter Wall Type</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Compressor:</span> Rotary Inverter</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Refrigerant:</span> R-32.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Coverage:</span> Ideal for rooms up to 120 sq. ft.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\">Features<ul class=\"KsbFXc U6u95\"><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">I-Feel Technology:</span> Dual temperature sensors (one on the unit and one on the remote) to maintain precise temperature near you.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Gold Fin Coating:</span> Corrosion-resistant condenser coating to protect against rain and humidity.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Turbo Mode:</span> Fast cooling performance.</span></li></ul></span></li>",
+            "sku": null,
+            "regularPrice": "52000.00",
+            "salePrice": "47900.00",
+            "stock": 13,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 6,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-22 12:55:21.507",
+            "updatedAt": "2026-10-17 19:07:23.769",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmubbaehh00343affljmj2m2k",
+            "name": "Midea 1.0 Ton Inverter Split Type AC",
+            "slug": "midea-1-0-ton-inverter-split-type-ac",
+            "brand": "Midea",
+            "description": "<ul class=\"KsbFXc U6u95\"><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Type:</span> Intelligent Inverter Split Type (Cooling Only)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Cooling Capacity:</span> 12,000 BTU/hr (1.0 Ton)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Compressor:</span> Rotary Inverter</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Refrigerant:</span> R-32 (Eco-friendly)</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Room Coverage:</span> Up to 120 sq. ft.</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\"><span class=\"rQesXe MPyX\" style=\"font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Key Functions:</span> Turbo mode cooling, auto fan speed, LED display, and energy-saving inverter technology.</span></li></ul>",
+            "sku": null,
+            "regularPrice": "44900.00",
+            "salePrice": null,
+            "stock": 6,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 3,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 13:59:29.237",
+            "updatedAt": "2026-10-25 18:48:07.585",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub7iush002t3affm9gqhu26",
+            "name": " Midea Dehumidifier Unit MDDP - (30 DEN1)",
+            "slug": "midea-dehumidifier-unit-mddp-30-den1",
+            "brand": "Midea",
+            "description": "<ul><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Capacity:</span> Removes up to 30 liters of moisture per day.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Coverage:</span> Suitable for large rooms up to 90 m².</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Water Tank:</span> Removable water tank holding approximately 4.7 liters with a full-tank indicator and auto shut-off.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Controls:</span> Electronic control panel with a 24-hour on/off timer and 3 fan speed settings.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Power Supply:</span> Operates on standard 220V–240V at 50Hz.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Additional Features:</span> Built-in auto-defrost function to prevent ice buildup on the coils.</li></ul>",
+            "sku": null,
+            "regularPrice": "29990.00",
+            "salePrice": "26500.00",
+            "stock": 0,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmub7ewea002p3affevekf4oz",
+            "createdAt": "2026-09-21 12:14:05.154",
+            "updatedAt": "2026-10-17 19:07:23.793",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub7180v002k3affnq1v9263",
+            "name": "Midea 3 Ton Ceiling Type Inverter AC - (MUI36CR)",
+            "slug": "midea-3-ton-ceiling-type-inverter-ac-mui36cr",
+            "brand": "Midea",
+            "description": "<ul><li><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(90.952 0 -0.0000119209) lab(90.952 0 -0.0000119209) rgb(10, 10, 10);outline-color:oklab(0.707999 -0.00000712276 0.0000166297 / 0.5);font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700\">Capacity:</span> 36,000 BTU/hr (3 Ton), suitable for rooms or spaces up to 301–360 sq. ft.</li><li><b>Type:</b> Inverter (On/Off system) with a rotary compressor.</li><li><b>Refrigerant:</b> Eco-friendly R-32.</li><li><b>Air Flow:</b> 4-way air flow direction with two-direction auto swing (vertical and horizontal) and three fan speeds.</li><li><b>Control: </b>Wireless remote controller included.</li><li><span class=\"rQesXe MPyX\" style=\"border-style:solid solid none;border-color:lab(90.952 0 -0.0000119209) lab(90.952 0 -0.0000119209) rgb(10, 10, 10);outline-color:oklab(0.707999 -0.00000712276 0.0000166297 / 0.5);font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700\">Ideal Uses:</span> Offices, large open rooms, restaurants, and enterprises.</li></ul>",
+            "sku": null,
+            "regularPrice": "165990.00",
+            "salePrice": null,
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 12:00:22.495",
+            "updatedAt": "2026-10-17 19:07:23.805",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub65m4b002c3afff731ewsx",
+            "name": "Midea 3 Ton Duct Type Non Inverter AC – (MHC36CR)",
+            "slug": "midea-3-ton-duct-type-non-inverter-ac-mhc36cr",
+            "brand": "Midea",
+            "description": "<ul><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Capacity:</span> 3-Ton, 36,000 BTU/h.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Type:</span> Non-Inverter Ducted Split AC.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Coverage Area:</span> Up to 1,600 sq. ft. (depending on environment and layout).</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Speed Settings:</span> High, Mid, Low.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Controls:</span> Automatic air control, timer, and wireless remote controller.</li></ul><br />Ideal Applications<ul class=\"KsbFXc U6u95\"><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\">Large commercial spaces, offices, and conference rooms</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\">Showrooms, restaurants, and retail shops</span></li><li class=\"Z1qcYe\"><span class=\"iNqyIf\" style=\"border-bottom:0px rgb(10, 10, 10)\">Mosques, hospitals, and institutional halls</span></li></ul>",
+            "sku": null,
+            "regularPrice": "170000.00",
+            "salePrice": null,
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 11:35:47.772",
+            "updatedAt": "2026-10-17 19:07:23.815",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub3wxqi00233affelccvglk",
+            "name": "Midea 2 Ton Split Type Non Inverter AC",
+            "slug": "midea-2-ton-split-type-non-inverter-ac",
+            "brand": "Midea",
+            "description": "<ul><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Cooling Capacity:</span> 24,000 BTU/hr (5304.5 Watts), ideal for rooms between 180 and 260 square feet.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Compressor Type:</span> Rotary non-inverter compressor.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Refrigerant:</span> Eco-friendly R-410A gas.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Special Features:</span> Turbo cool mode, sleep mode, auto-restart, timer control, and a washable anti-bacterial air filter.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Noise Level:</span> Operates between 38 to 51 dB(A) indoors.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Warranty:</span> 5-year compressor warranty alongside 2 years for parts and service .</li></ul>",
+            "sku": null,
+            "regularPrice": "60900.00",
+            "salePrice": null,
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 10:33:03.690",
+            "updatedAt": "2026-10-17 19:07:23.823",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub1z9j3001t3affvp5ok5k0",
+            "name": "Midea 4 Ton Cassette Type Inverter AC – (MCI48CR)",
+            "slug": "midea-4-ton-cassette-type-inverter-ac-mci48cr",
+            "brand": "Midea",
+            "description": "<ul><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Cooling Capacity:</span> 4 Ton (48,000 BTU/hr) suitable for large commercial areas, offices, or restaurants.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Technology:</span> Advanced DC Inverter technology for stable temperature control and lower energy usage.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Airflow Design:</span> 360° uniform cassette airflow configuration with 4-way direction control.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Refrigerant:</span> Eco-friendly R-32 gas.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Compressor:</span> Reliable GMCC rotary/scroll architecture.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Noise Level:</span> Low-mode operation reaching down to roughly 44–50 dB(A) for quiet indoor performance.</li></ul><br />",
+            "sku": null,
+            "regularPrice": "219990.00",
+            "salePrice": null,
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 09:38:53.056",
+            "updatedAt": "2026-10-17 19:07:23.832",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub1eg5g001f3affaftyptq2",
+            "name": "Midea 3 Ton Ceiling Type Non Inverter AC – (MUB36CR)",
+            "slug": "midea-3-ton-ceiling-type-non-inverter-ac-mub36cr",
+            "brand": "Midea",
+            "description": "<ul><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Capacity:</span> 36,000 BTU/hr (3 Ton), suitable for rooms or spaces up to 301–360 sq. ft.</li><li><b>Type:</b> Non-inverter (On/Off system) with a rotary compressor.</li><li><b>Refrigerant</b>: Eco-friendly R-410A.</li><li><b>Air Flow:</b> 4-way air flow direction with two-direction auto swing (vertical and horizontal) and three fan speeds.</li><li><b>Control:</b> Wireless remote controller included.</li><li><span class=\"rQesXe MPyX\" style=\"font-family:&quot;Google Sans&quot;, Arial, sans-serif, &quot;Noto Color Emoji&quot;;font-size:16px;font-weight:700;border-bottom:0px rgb(10, 10, 10)\">Ideal Uses:</span> Offices, large open rooms, restaurants, and enterprises.</li></ul><br />",
+            "sku": null,
+            "regularPrice": "148500.00",
+            "salePrice": null,
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 09:22:41.861",
+            "updatedAt": "2026-10-17 19:07:23.845",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmub0nel000153affv9oca0mn",
+            "name": "Midea 2 Ton Duct Type Non Inverter AC – MHC24CR",
+            "slug": "midea-2-ton-duct-type-non-inverter-ac-mhc24cr",
+            "brand": "Midea",
+            "description": "<table class=\"table table-bordered table-hover\"><tbody><tr><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Air Conditioner Type</span></td><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Non-Inverter</span></td></tr><tr><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Function</span></td><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Cooling</span></td></tr><tr><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Cooling Capacity</span></td><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">24000 BTU/hr</span></td></tr><tr><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Compressor</span></td><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Rotary </span></td></tr><tr><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">Refrigerant</span></td><td><span style=\"border-style:none;border-color:currentcolor;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;font-size:inherit;line-height:inherit;font-family:Arial;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;vertical-align:baseline\">R410</span></td></tr></tbody></table>",
+            "sku": null,
+            "regularPrice": "130000.00",
+            "salePrice": "126000.00",
+            "stock": 20,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-09-21 09:01:40.117",
+            "updatedAt": "2026-10-17 19:07:23.857",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmu9y1vwc000z3affjvlvlmkk",
+            "name": "Miyako Digital Air Fryer AF-618",
+            "slug": "miyako-digital-air-fryer-af-618",
+            "brand": "Miyako",
+            "description": "<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> Rapid Air Technology<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> Digital Touch Panel<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> 3.5L Fry Basket<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> 1400W Powerful Performance<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> Adjustable Temperature (80° - 200°C)<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> Built-in Timer &amp; Auto Shut-Off<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span> 5 Year's Warranty ",
+            "sku": null,
+            "regularPrice": "9800.00",
+            "salePrice": "7920.00",
+            "stock": 3,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cms1v46py00033ap7cr4c5oxh",
+            "createdAt": "2026-09-20 15:01:10.716",
+            "updatedAt": "2026-10-17 19:07:23.865",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmu9wuy6f000w3affbct7ka48",
+            "name": "KONKA Infrared Cooker",
+            "slug": "konka-infrared-cooker",
+            "brand": "KONKA",
+            "description": "<span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/1f4aa.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">💪</span></span><span style=\"white-space:pre-wrap\"> KONKA KIC-N03 Features:</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t5d/1/16/26a1.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">⚡</span></span><span style=\"white-space:pre-wrap\"> 2000W Powerful Performance</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/td4/1/16/1f39b.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">🎛️</span></span><span style=\"white-space:pre-wrap\"> Smart Touch Control</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1/16/2728.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">✨</span></span><span style=\"white-space:pre-wrap\"> Crystal Glass Plate</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t3a/1/16/1f6e1.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">🛡️</span></span><span style=\"white-space:pre-wrap\"> Overheat Protection</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t66/1/16/1f372.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">🍲</span></span><span style=\"white-space:pre-wrap\"> Multiple Cooking Functions</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t50/1/16/1f525.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">🔥</span></span><span style=\"white-space:pre-wrap\"> Fry • Boil • Stew • Soup • Hot Pot</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t84/1/16/1f381.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">🎁</span></span><span style=\"white-space:pre-wrap\"> 1 Year Warranty</span>",
+            "sku": null,
+            "regularPrice": "8250.00",
+            "salePrice": "7250.00",
+            "stock": 0,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmu9wpo4n000t3affl02k4g0z",
+            "createdAt": "2026-09-20 14:27:47.464",
+            "updatedAt": "2026-10-17 19:07:23.872",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmu9tmwzn000k3affen462q3r",
+            "name": " Miyako Hilton Mixer Grinder",
+            "slug": "miyako-hilton-mixer-grinder",
+            "brand": "Miyako",
+            "description": "<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> 2000W Heavy Duty Motor </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> 3 Stainless Steel Jar (1.5L, 1.0L &amp; 0.4L) </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> Sharp Stainless Steel Blades </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> Dry &amp; Wet Grinding </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> Juice &amp; Smoothie Making </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> Overload Protection System </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> High Speed Performance </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✅\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t33/1/16/2705.png\" /></span><span style=\"color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;white-space:pre-wrap;background-color:rgb(255, 255, 255)\"> Durable &amp; Elegant Design</span>",
+            "sku": null,
+            "regularPrice": "7000.00",
+            "salePrice": "5800.00",
+            "stock": 0,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6eu5b000aumyoicpncpfj",
+            "createdAt": "2026-09-20 12:57:33.827",
+            "updatedAt": "2026-10-17 19:07:23.883",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmu9sts3q000c3affc36qy1kw",
+            "name": "Miyako Multi Cooker MC - 580 T (Double Pot's)",
+            "slug": "miyako-multi-cooker-mc-580-t-double-pots",
+            "brand": "Miyako ",
+            "description": "<span style=\"white-space:pre-wrap\">Miyako Multi Cooker MC - 580 T (Double Pot's)</span><br /><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/25aa.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">▪️</span></span><span style=\"white-space:pre-wrap\">2 Pots, 1 Glass Lid</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/25aa.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">▪️</span></span><span style=\"white-space:pre-wrap\">Capacity: 5 L</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/25aa.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">▪️</span></span><span style=\"white-space:pre-wrap\">Ceramic Marble Coating</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/25aa.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">▪️</span></span><span style=\"white-space:pre-wrap\">1500 W</span><br /><span class=\"x1xsqp64 xiy17q3 x1o6pynw x19co3pv xdj266r xjn30re xat24cr x1hb08if x2b8uid\" style=\"cursor:default;background-image:url(&quot;https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/25aa.png&quot;);background-size:16px 16px;white-space:pre-wrap\"><span class=\"xexx8yu xcaqkgz x18d9i69 xbwkkl7 x3jgonx x1bhl96m\">▪️</span></span><span style=\"white-space:pre-wrap\">Energy Savings </span>",
+            "sku": null,
+            "regularPrice": "8200.00",
+            "salePrice": "6300.00",
+            "stock": 5,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmqc6gbdz000dumyokrusb6n9",
+            "createdAt": "2026-09-20 12:34:54.471",
+            "updatedAt": "2026-10-17 19:07:23.890",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmtg41k7w00053abe7n91xx5b",
+            "name": "Hair Dryer Miyako RCY-D12 ",
+            "slug": "hair-dryer-miyako-rcy-d12",
+            "brand": null,
+            "description": "RCY-D12 W-1300<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"⚡\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t5d/1/16/26a1.png\" /></span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> Powerful Airflow<br /></span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🌡️\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tca/1/16/1f321.png\" /></span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> 2 Heat Settings</span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"💨\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tc3/1/16/1f4a8.png\" /></span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> 2 Speed Settings</span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"❄️\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t2e/1/16/2744.png\" /></span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> Cool Shot Function</span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> </span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🎯\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tb0/1/16/1f3af.png\" /></span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> Concentrator Nozzle</span><span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;padding-inline:0px;margin-inline:1px;font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;color:rgb(8, 8, 9);font-size:15px;background-color:rgb(255, 255, 255)\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"👜\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1a/1/16/1f45c.png\" /></span><span style=\"border-color:lab(100 0 0 / 0.1);outline-color:oklab(0.555999 -0.00000530481 0.000012964 / 0.5);color:rgb(8, 8, 9);font-family:&quot;Segoe UI Historic&quot;, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif;font-size:15px;background-color:rgb(255, 255, 255)\"> Compact &amp; Travel-Friendly Design</span>",
+            "sku": null,
+            "regularPrice": "3250.00",
+            "salePrice": null,
+            "stock": 0,
+            "lowStockThreshold": 10,
+            "isActive": 1,
+            "soldCount": 0,
+            "categoryId": "cmtg3nufi00023abeuosdzvp9",
+            "createdAt": "2026-08-30 17:55:47.996",
+            "updatedAt": "2026-10-17 19:07:23.898",
+            "specifications": "",
+            "questions": null
+        },
+        {
+            "id": "cmsrha10l00033akqltx4vdyb",
+            "name": "Midea Portable AC",
+            "slug": "midea-portable-ac",
+            "brand": "Midea",
+            "description": "<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"✨\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1/16/2728.png\" /></span> 12,000 BTU Powerful Cooling<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><br /><br /> <img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🔇\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t14/1/16/1f507.png\" /></span> Low Noise Operation<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"💧\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t42/1/16/1f4a7.png\" /></span> Dehumidification <span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🌀\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tb/1/16/1f300.png\" /></span> 3-in-1 Cooling, Dehumidifying &amp; Fan <span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🎛️\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/td4/1/16/1f39b.png\" /></span> Remote Control<span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"> <img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🛞\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tcf/1/16/1f6de.png\" /></span> Easy Mobility <span class=\"html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od\" style=\"text-align:inherit;padding-inline:0px;margin-inline:1px;overflow-wrap:break-word;display:inline-flex;vertical-align:middle;width:16px;height:16px;font-family:inherit\"><img height=\"16\" width=\"16\" class=\"xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw\" alt=\"🛡️\" src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t3a/1/16/1f6e1.png\" /></span> 5 Years Compressor Warranty",
+            "sku": null,
+            "regularPrice": "48000.00",
+            "salePrice": "42900.00",
+            "stock": 29,
+            "lowStockThreshold": 5,
+            "isActive": 1,
+            "soldCount": 1,
+            "categoryId": "cmqc6bqy20005umyo35mw2vea",
+            "createdAt": "2026-08-13 12:12:03.620",
+            "updatedAt": "2026-10-17 19:07:23.907",
+            "specifications": "",
+            "questions": null
+        }
+    ],
+    "images": [
+        {
+            "id": "cmvcrqiyx002ru538otwwyslz",
+            "productId": "cmsrha10l00033akqltx4vdyb",
+            "url": "/uploads/1790598929487-7a0811cb1683.jpg.webp",
+            "alt": "Midea Portable AC",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiyy002tu538oldzu9c5",
+            "productId": "cmsrha10l00033akqltx4vdyb",
+            "url": "/uploads/1790598929686-60e84fa0aa6d.png.webp",
+            "alt": "Midea Portable AC",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiyo002pu5384ipltli4",
+            "productId": "cmtg41k7w00053abe7n91xx5b",
+            "url": "/uploads/1790598447989-2b4cdf16c8a4.jpg.webp",
+            "alt": "Hair Dryer Miyako RCY-D12 ",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiye002nu5381vmg2cgu",
+            "productId": "cmu9sts3q000c3affc36qy1kw",
+            "url": "/uploads/1790598373489-c1694d46357a.png.webp",
+            "alt": "Miyako Multi Cooker MC - 580 T (Double Pot's)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiy6002lu5388rlye7mh",
+            "productId": "cmu9tmwzn000k3affen462q3r",
+            "url": "/uploads/1790598295491-c6cedde6b5d4.jpg.webp",
+            "alt": " Miyako Hilton Mixer Grinder",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqixw002fu538dofn9xkq",
+            "productId": "cmu9wuy6f000w3affbct7ka48",
+            "url": "/uploads/1790515994561-b7948137d932.png.webp",
+            "alt": "KONKA Infrared Cooker",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqixy002hu538q879c29c",
+            "productId": "cmu9wuy6f000w3affbct7ka48",
+            "url": "/uploads/1790516662252-d41332e2fc29.jpg.webp",
+            "alt": "KONKA Infrared Cooker",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiy0002ju538qa8mt4gz",
+            "productId": "cmu9wuy6f000w3affbct7ka48",
+            "url": "/uploads/1790516662159-f2599ff76b1a.jpg.webp",
+            "alt": "KONKA Infrared Cooker",
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvcrqixp002du538qx1tpb5w",
+            "productId": "cmu9y1vwc000z3affjvlvlmkk",
+            "url": "/uploads/1790329869350-ad1c7e391550.jpg.webp",
+            "alt": "Miyako Digital Air Fryer AF-618",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqixg0029u538zvffnu1d",
+            "productId": "cmub0nel000153affv9oca0mn",
+            "url": "/uploads/1790517469152-7f979d1f9ff9.jpg.webp",
+            "alt": "Midea 2 Ton Duct Type Non Inverter AC – MHC24CR",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqixi002bu538y1mhzau2",
+            "productId": "cmub0nel000153affv9oca0mn",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 2 Ton Duct Type Non Inverter AC – MHC24CR",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqix80025u538j719qg7q",
+            "productId": "cmub1eg5g001f3affaftyptq2",
+            "url": "/uploads/1790516963922-041ecc760888.png.webp",
+            "alt": "Midea 3 Ton Ceiling Type Non Inverter AC – (MUB36CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqixa0027u538nzwi7g23",
+            "productId": "cmub1eg5g001f3affaftyptq2",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Midea 3 Ton Ceiling Type Non Inverter AC – (MUB36CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiwt001zu538vs9ik5ya",
+            "productId": "cmub1z9j3001t3affvp5ok5k0",
+            "url": "/uploads/1790517677294-e232e77c2cb6.png.webp",
+            "alt": "Midea 4 Ton Cassette Type Inverter AC – (MCI48CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiww0021u5389wwrbwie",
+            "productId": "cmub1z9j3001t3affvp5ok5k0",
+            "url": "/uploads/1790517677059-175ca80d2ffe.png.webp",
+            "alt": "Midea 4 Ton Cassette Type Inverter AC – (MCI48CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiwz0023u538digctn5v",
+            "productId": "cmub1z9j3001t3affvp5ok5k0",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Midea 4 Ton Cassette Type Inverter AC – (MCI48CR)",
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvcrqiwi001vu538rbq7m6oz",
+            "productId": "cmub3wxqi00233affelccvglk",
+            "url": "/uploads/1790517563934-35989bd1f80f.png.webp",
+            "alt": "Midea 2 Ton Split Type Non Inverter AC",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiwl001xu538q1v9tayl",
+            "productId": "cmub3wxqi00233affelccvglk",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 2 Ton Split Type Non Inverter AC",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiwa001ru5380pr62ahq",
+            "productId": "cmub65m4b002c3afff731ewsx",
+            "url": "/uploads/1790517469152-7f979d1f9ff9.jpg.webp",
+            "alt": "Midea 3 Ton Duct Type Non Inverter AC – (MHC36CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiwc001tu538kel4dqo7",
+            "productId": "cmub65m4b002c3afff731ewsx",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Midea 3 Ton Duct Type Non Inverter AC – (MHC36CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiw1001nu538rb5qygve",
+            "productId": "cmub7180v002k3affnq1v9263",
+            "url": "/uploads/1790516963922-041ecc760888.png.webp",
+            "alt": "Midea 3 Ton Ceiling Type Inverter AC - (MUI36CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiw4001pu538gm3pkiyc",
+            "productId": "cmub7180v002k3affnq1v9263",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Midea 3 Ton Ceiling Type Inverter AC - (MUI36CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqivr001ju538ds7iqqq2",
+            "productId": "cmub7iush002t3affm9gqhu26",
+            "url": "/uploads/1790515946379-0b989ca0e493.jpg.webp",
+            "alt": " Midea Dehumidifier Unit MDDP - (30 DEN1)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqivu001lu538xpbp5nik",
+            "productId": "cmub7iush002t3affm9gqhu26",
+            "url": "/uploads/1790515946309-b8afcc06092a.jpg.webp",
+            "alt": " Midea Dehumidifier Unit MDDP - (30 DEN1)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqivh001fu538rsinjvrx",
+            "productId": "cmubbaehh00343affljmj2m2k",
+            "url": "/uploads/1790516900974-de7753ec27a9.jpg.webp",
+            "alt": "Midea 1.0 Ton Inverter Split Type AC",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqivi001hu538mztb4hny",
+            "productId": "cmubbaehh00343affljmj2m2k",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 1.0 Ton Inverter Split Type AC",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiv20015u5388llf4egt",
+            "productId": "cmucofs83000e3arwrmdmvvza",
+            "url": "/uploads/1790607365786-6a28f2b0da00.jpg.webp",
+            "alt": "Midea 1 Ton Inverter Split Type AC (Only Cooling)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiv30017u538pj69xrxy",
+            "productId": "cmucofs83000e3arwrmdmvvza",
+            "url": "/uploads/1790607365471-e7342c3f5e53.jpg.webp",
+            "alt": "Midea 1 Ton Inverter Split Type AC (Only Cooling)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiv60019u538wpzia9rg",
+            "productId": "cmucofs83000e3arwrmdmvvza",
+            "url": "/uploads/1790607363333-a47021c6d828.jpg.webp",
+            "alt": "Midea 1 Ton Inverter Split Type AC (Only Cooling)",
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvcrqiv8001bu538fiiw2joo",
+            "productId": "cmucofs83000e3arwrmdmvvza",
+            "url": "/uploads/1790607364814-5cfe14161b69.jpg.webp",
+            "alt": "Midea 1 Ton Inverter Split Type AC (Only Cooling)",
+            "sortOrder": 3
+        },
+        {
+            "id": "cmvcrqiva001du538q916bh57",
+            "productId": "cmucofs83000e3arwrmdmvvza",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 1 Ton Inverter Split Type AC (Only Cooling)",
+            "sortOrder": 4
+        },
+        {
+            "id": "cmvcrqiu6000vu538c3tif8b4",
+            "productId": "cmuqx0592000w3ag084q842qa",
+            "url": "/uploads/1790607363333-a47021c6d828.jpg.webp",
+            "alt": "Midea 1.5 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiuc000xu5381slysmv2",
+            "productId": "cmuqx0592000w3ag084q842qa",
+            "url": "/uploads/1790607365471-e7342c3f5e53.jpg.webp",
+            "alt": "Midea 1.5 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqiui000zu538go27lnz8",
+            "productId": "cmuqx0592000w3ag084q842qa",
+            "url": "/uploads/1790607365786-6a28f2b0da00.jpg.webp",
+            "alt": "Midea 1.5 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvcrqiun0011u538bif6vqhc",
+            "productId": "cmuqx0592000w3ag084q842qa",
+            "url": "/uploads/1790607364814-5cfe14161b69.jpg.webp",
+            "alt": "Midea 1.5 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 3
+        },
+        {
+            "id": "cmvcrqiut0013u538v93fm8ah",
+            "productId": "cmuqx0592000w3ag084q842qa",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 1.5 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 4
+        },
+        {
+            "id": "cmvcrqitk000lu538ydgae6vl",
+            "productId": "cmuqx5nza001i3ag0paiwmy0k",
+            "url": "/uploads/1790607364814-5cfe14161b69.jpg.webp",
+            "alt": "Midea 2 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqitm000nu5381mmtl8cq",
+            "productId": "cmuqx5nza001i3ag0paiwmy0k",
+            "url": "/uploads/1790607365471-e7342c3f5e53.jpg.webp",
+            "alt": "Midea 2 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqitq000pu538e1owtz8g",
+            "productId": "cmuqx5nza001i3ag0paiwmy0k",
+            "url": "/uploads/1790607363333-a47021c6d828.jpg.webp",
+            "alt": "Midea 2 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvcrqits000ru5383ylrukqp",
+            "productId": "cmuqx5nza001i3ag0paiwmy0k",
+            "url": "/uploads/1790607365786-6a28f2b0da00.jpg.webp",
+            "alt": "Midea 2 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 3
+        },
+        {
+            "id": "cmvcrqitu000tu538rm06pmk1",
+            "productId": "cmuqx5nza001i3ag0paiwmy0k",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 2 Ton Inverter Wall Type AC (Cooling only)",
+            "sortOrder": 4
+        },
+        {
+            "id": "cmvcrqita000hu538vwvavenm",
+            "productId": "cmv0yzi7u00033ayp84ymsucy",
+            "url": "/uploads/1791550600745-9a9469c87aaf.jpg.webp",
+            "alt": "Midea 2 Ton Cassette Type Non Inverter AC – (MCA24CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqitd000ju538lntahgyg",
+            "productId": "cmv0yzi7u00033ayp84ymsucy",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 2 Ton Cassette Type Non Inverter AC – (MCA24CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqisw000du538z2sa40t7",
+            "productId": "cmv0z5tj500073ayp3ywmyp5b",
+            "url": "/uploads/1791550600745-9a9469c87aaf.jpg.webp",
+            "alt": "Midea 2.5 Ton Cassette Type Non Inverter AC – (MCA30CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqisz000fu53827s93bxz",
+            "productId": "cmv0z5tj500073ayp3ywmyp5b",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Midea 2.5 Ton Cassette Type Non Inverter AC – (MCA30CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqisk0009u538e0j1x6gu",
+            "productId": "cmv0zbdx1000b3ayplbmaaiij",
+            "url": "/uploads/1791550600745-9a9469c87aaf.jpg.webp",
+            "alt": "Midea 1.5 Ton Cassette Type Non Inverter AC – (MCA18CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqiso000bu538qdwwvnwb",
+            "productId": "cmv0zbdx1000b3ayplbmaaiij",
+            "url": "/uploads/1790515867277-c6900b93fd3f.png.webp",
+            "alt": "Midea 1.5 Ton Cassette Type Non Inverter AC – (MCA18CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqis80005u538zn9pnd9f",
+            "productId": "cmv0zg4ib000f3ayp6oi8ybdc",
+            "url": "/uploads/1791550600745-9a9469c87aaf.jpg.webp",
+            "alt": "Elite 4 Ton Cassette Type Non Inverter AC – (ECA48CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqisc0007u538hwqzbbbk",
+            "productId": "cmv0zg4ib000f3ayp6oi8ybdc",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Elite 4 Ton Cassette Type Non Inverter AC – (ECA48CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvcrqirt0001u53803i42m65",
+            "productId": "cmv0zk8wv000j3aypd0p1xo9a",
+            "url": "/uploads/1791550600745-9a9469c87aaf.jpg.webp",
+            "alt": "Elite 5 Ton Cassette Type Non Inverter AC – (ECA60CR)",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvcrqirx0003u538sr2ac21q",
+            "productId": "cmv0zk8wv000j3aypd0p1xo9a",
+            "url": "/uploads/1790516982069-cc97e5597ad4.png.webp",
+            "alt": "Elite 5 Ton Cassette Type Non Inverter AC – (ECA60CR)",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvo9c86k0004u5qwijep7mak",
+            "productId": "cmvo9blpo0001u55gccam4kej",
+            "url": "/uploads/home-appliance-air-curtain-main.webp",
+            "alt": "National JS-36BC-H air curtain",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvo9c86k0005u5qwutw6e3pe",
+            "productId": "cmvo9blpo0001u55gccam4kej",
+            "url": "/uploads/home-appliance-air-curtain-js-36bc-h.webp",
+            "alt": "3-foot size and dimensions",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvo9c8du000au5qwzdteyar5",
+            "productId": "cmvo9blzm0007u55gtk8pv3r4",
+            "url": "/uploads/home-appliance-air-curtain-main.webp",
+            "alt": "National JS-48BC-H air curtain",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvo9c8du000bu5qwvqjj97mj",
+            "productId": "cmvo9blzm0007u55gtk8pv3r4",
+            "url": "/uploads/home-appliance-air-curtain-js-48bc-h.webp",
+            "alt": "4-foot size and dimensions",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvqofaor000bu5z0q0wlyoq9",
+            "productId": "cmvo9blzq000du55g1luhf1yp",
+            "url": "/uploads/1793005588945-4f754785809d.webp",
+            "alt": "National JS-60BC-H air curtain",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvqofaor000cu5z0tjcwi2ik",
+            "productId": "cmvo9blzq000du55g1luhf1yp",
+            "url": "/uploads/home-appliance-air-curtain-js-60bc-h.webp",
+            "alt": "5-foot size and dimensions",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvqofaor000du5z0iz8xy7rq",
+            "productId": "cmvo9blzq000du55g1luhf1yp",
+            "url": "/uploads/1793005597002-8a619ef72cfd.webp",
+            "alt": null,
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvqofaor000eu5z0b38x60rm",
+            "productId": "cmvo9blzq000du55g1luhf1yp",
+            "url": "/uploads/1793005574236-bb3509477829.webp",
+            "alt": null,
+            "sortOrder": 3
+        },
+        {
+            "id": "cmvp12scc000ju51gmjeq8tqy",
+            "productId": "cmvo9bm0b000ju55g2f9sqtsy",
+            "url": "/uploads/1792965344238-f08ab052fa05.webp",
+            "alt": "National JS-72BC-H air curtain",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvp12scc000ku51giaq0g96r",
+            "productId": "cmvo9bm0b000ju55g2f9sqtsy",
+            "url": "/uploads/home-appliance-air-curtain-main.webp",
+            "alt": "6-foot size and dimensions",
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvp12scc000lu51g01uw97mf",
+            "productId": "cmvo9bm0b000ju55g2f9sqtsy",
+            "url": "/uploads/home-appliance-air-curtain-js-72bc-h.webp",
+            "alt": null,
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvp12scc000mu51g3bsczn58",
+            "productId": "cmvo9bm0b000ju55g2f9sqtsy",
+            "url": "/uploads/1792965275091-9e12d81475d6.webp",
+            "alt": null,
+            "sortOrder": 3
+        },
+        {
+            "id": "cmvp12scd000nu51g0pp3vyni",
+            "productId": "cmvo9bm0b000ju55g2f9sqtsy",
+            "url": "/uploads/1792965361472-0ac426c6fc5a.webp",
+            "alt": null,
+            "sortOrder": 4
+        },
+        {
+            "id": "cmvrqg9170000u5d4ynosis9j",
+            "productId": "cmvo9bm3j000pu55g262mo87t",
+            "url": "/uploads/home-appliance-touching-znt-111-room-heater.webp",
+            "alt": "Touching ZNT-111 PTC fan heater",
+            "sortOrder": 0
+        },
+        {
+            "id": "cmvrqg9190001u5d4ejbyxdbf",
+            "productId": "cmvo9bm3j000pu55g262mo87t",
+            "url": "/uploads/1792962244473-c5630fc8d7fa.webp",
+            "alt": null,
+            "sortOrder": 1
+        },
+        {
+            "id": "cmvrqg9190002u5d4dg7rtgwo",
+            "productId": "cmvo9bm3j000pu55g262mo87t",
+            "url": "/uploads/1792962239296-43663488aaba.webp",
+            "alt": null,
+            "sortOrder": 2
+        },
+        {
+            "id": "cmvrqg9190003u5d4uekp7qqz",
+            "productId": "cmvo9bm3j000pu55g262mo87t",
+            "url": "/uploads/1792962232812-4e2440300f1d.webp",
+            "alt": null,
+            "sortOrder": 3
+        },
+        {
+            "id": "cmvrqg9190004u5d4yb41pjg8",
+            "productId": "cmvo9bm3j000pu55g262mo87t",
+            "url": "/uploads/1792964991890-998eb24d41c0.webp",
+            "alt": null,
+            "sortOrder": 4
+        }
+    ],
+    "pages": [
+        {
+            "id": "cmqb9jm24002eummw1ci0ijte",
+            "slug": "about-us",
+            "title": "About Us",
+            "metaTitle": "About Best Cool Electronics — Who We Are",
+            "metaDescription": "Best Cool Electronics is Bangladesh's trusted online electronics store, delivering 100% genuine products with official warranty since 2018.",
+            "ogImage": "https://placehold.co/1200x630/0f172a/38bdf8/png?text=Next%20Mart%20%E2%80%94%20About%20Us",
+            "createdAt": "2026-06-12 18:31:50.380",
+            "updatedAt": "2026-10-17 19:07:24.101"
+        },
+        {
+            "id": "cmqb9jm26002jummwuart0wtu",
+            "slug": "contact-us",
+            "title": "Contact Us",
+            "metaTitle": "Contact Best Cool — We're Here to Help",
+            "metaDescription": "Reach Best Cool by phone, email, WhatsApp or visit our Dhanmondi showroom. Open 7 days a week, 10am–9pm.",
+            "ogImage": null,
+            "createdAt": "2026-06-12 18:31:50.382",
+            "updatedAt": "2026-10-17 19:07:24.195"
+        },
+        {
+            "id": "cmqb9jm1x0027ummwc5awefgc",
+            "slug": "home",
+            "title": "Home",
+            "metaTitle": "Best Cool — Genuine Electronics at the Best Price in Bangladesh",
+            "metaDescription": "Buy 100% authentic smartphones, laptops, smart watches and accessories with official warranty. Fast delivery across Bangladesh. Cash on delivery available.",
+            "ogImage": "/uploads/1781343234004-3d278a511a4f.png.webp",
+            "createdAt": "2026-06-12 18:31:50.374",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqb9jm2k002wummwb2j98tqm",
+            "slug": "privacy-policy",
+            "title": "Privacy Policy",
+            "metaTitle": "Privacy Policy — Best Cool Electronics",
+            "metaDescription": "How Best Cool Electronics collects, uses and protects your personal information.",
+            "ogImage": "https://placehold.co/1200x630/0f172a/38bdf8/png?text=Next%20Mart%20%E2%80%94%20Privacy%20Policy",
+            "createdAt": "2026-06-12 18:31:50.396",
+            "updatedAt": "2026-10-17 19:07:24.601"
+        },
+        {
+            "id": "cmqb9jm2m002yummwspeen3iu",
+            "slug": "refund-policy",
+            "title": "Refund & Return Policy",
+            "metaTitle": "Refund & Return Policy — Best Cool Electronics",
+            "metaDescription": "Best Cool Electronics's 7-day replacement guarantee and refund process explained.",
+            "ogImage": "https://placehold.co/1200x630/0f172a/38bdf8/png?text=Next%20Mart%20%E2%80%94%20Refund%20%26%20Return%20Policy",
+            "createdAt": "2026-06-12 18:31:50.398",
+            "updatedAt": "2026-10-17 19:07:24.720"
+        },
+        {
+            "id": "cmqb9jm29002nummwwawsl7b4",
+            "slug": "shop",
+            "title": "Shop",
+            "metaTitle": "Shop All Electronics — Best Cool Electronics Bangladesh",
+            "metaDescription": "Browse smartphones, laptops, smart watches and accessories. Filter by category and price, with nationwide delivery.",
+            "ogImage": "/uploads/1790604890916-02c138d4ddd3.png.webp",
+            "createdAt": "2026-06-12 18:31:50.385",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqb9jm2d002pummwhqljcoly",
+            "slug": "showroom",
+            "title": "Showroom",
+            "metaTitle": "Visit Our Showrooms — Best Cool Electronics",
+            "metaDescription": "Experience products hands-on at Best Cool Electronics showrooms in Uttara, Dhaka.",
+            "ogImage": "/uploads/1790604458674-af46b81b759e.jpg.webp",
+            "createdAt": "2026-06-12 18:31:50.390",
+            "updatedAt": "2026-10-26 08:32:19.057"
+        },
+        {
+            "id": "cmqb9jm2h002uummw170ek8wc",
+            "slug": "terms",
+            "title": "Terms & Conditions",
+            "metaTitle": "Terms & Conditions — Best Cool Electronics",
+            "metaDescription": "Read the terms and conditions for shopping with Best Cool Electronics Bangladesh.",
+            "ogImage": "https://placehold.co/1200x630/0f172a/38bdf8/png?text=Next%20Mart%20%E2%80%94%20Terms%20%26%20Conditions",
+            "createdAt": "2026-06-12 18:31:50.394",
+            "updatedAt": "2026-10-17 19:07:24.515"
+        }
+    ],
+    "blocks": [
+        {
+            "id": "cmulaxril000z3a8hu8xyne73",
+            "pageId": "cmqb9jm1x0027ummwc5awefgc",
+            "type": "BANNER",
+            "content": {
+                "image": "/uploads/home-premium-electronics-banner.png.webp",
+                "link": "/shop",
+                "alt": "Upgrade Your Home with Premium Electronics"
+            },
+            "sortOrder": 1,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm1y002bummwthd2rv0z",
+            "pageId": "cmqb9jm1x0027ummwc5awefgc",
+            "type": "FEATURED_CATEGORIES",
+            "content": [],
+            "sortOrder": 3,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm1y002dummwoubmtkc0",
+            "pageId": "cmqb9jm1x0027ummwc5awefgc",
+            "type": "TESTIMONIALS",
+            "content": {
+                "items": [
+                    {
+                        "name": "Rahim Ahmed",
+                        "text": "Ordered a Galaxy A56 at 11pm, received it the next afternoon. Genuine product with official warranty. Highly recommended!",
+                        "rating": 5,
+                        "location": "Dhaka"
+                    },
+                    {
+                        "name": "Fatema Khatun",
+                        "text": "Best price I found for the Amazfit GTS 4 Mini anywhere in Bangladesh. The COD option made it totally risk-free.",
+                        "rating": 5,
+                        "location": "Chattogram"
+                    },
+                    {
+                        "name": "Sajid Hossain",
+                        "text": "The laptop arrived well-packaged in 3 days. Customer support on WhatsApp was super responsive.",
+                        "rating": 4,
+                        "location": "Sylhet"
+                    }
+                ],
+                "heading": "What Our Customers Say"
+            },
+            "sortOrder": 9,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmvqkaq2m0007u50ctj5qfazz",
+            "pageId": "cmqb9jm1x0027ummwc5awefgc",
+            "type": "FEATURED_PRODUCTS",
+            "content": {
+                "heading": "Top Selling Products",
+                "subheading": "",
+                "productIds": [
+                    "cmvo9bm3j000pu55g262mo87t",
+                    "cmvo9bm0b000ju55g2f9sqtsy",
+                    "cmvo9blzq000du55g1luhf1yp",
+                    "cmvo9blzm0007u55gtk8pv3r4",
+                    "cmvo9blpo0001u55gccam4kej"
+                ]
+            },
+            "sortOrder": 10,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmvqo4rwn0001u5z04ck4k3fy",
+            "pageId": "cmqb9jm1x0027ummwc5awefgc",
+            "type": "FEATURED_PRODUCTS",
+            "content": {
+                "heading": "Featured Products",
+                "subheading": "",
+                "categoryIds": [
+                    "cmqc6bqy20005umyo35mw2vea"
+                ],
+                "categoryId": "cmqc6bqy20005umyo35mw2vea",
+                "url": "/shop?category=air-conditioner",
+                "productIds": [
+                    "cmubbaehh00343affljmj2m2k",
+                    "cmucofs83000e3arwrmdmvvza",
+                    "cmuqx0592000w3ag084q842qa",
+                    "cmv0zbdx1000b3ayplbmaaiij",
+                    "cmub0nel000153affv9oca0mn",
+                    "cmub3wxqi00233affelccvglk",
+                    "cmv0yzi7u00033ayp84ymsucy",
+                    "cmuqx5nza001i3ag0paiwmy0k",
+                    "cmv0z5tj500073ayp3ywmyp5b",
+                    "cmub7180v002k3affnq1v9263",
+                    "cmub1eg5g001f3affaftyptq2",
+                    "cmub65m4b002c3afff731ewsx",
+                    "cmub1z9j3001t3affvp5ok5k0",
+                    "cmv0zk8wv000j3aypd0p1xo9a",
+                    "cmv0zg4ib000f3ayp6oi8ybdc"
+                ]
+            },
+            "sortOrder": 11,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmvqo993e0009u5z0v718yyzl",
+            "pageId": "cmqb9jm1x0027ummwc5awefgc",
+            "type": "FEATURED_PRODUCTS",
+            "content": {
+                "heading": "Popular Products",
+                "subheading": "",
+                "categoryIds": [
+                    "cms1v46py00033ap7cr4c5oxh",
+                    "cmub7ewea002p3affevekf4oz",
+                    "cmu9wpo4n000t3affl02k4g0z",
+                    "cmtg3nufi00023abeuosdzvp9",
+                    "cmqc6fqym000cumyoym4508en",
+                    "cmqc6eu5b000aumyoicpncpfj",
+                    "cmqc6gbdz000dumyokrusb6n9"
+                ],
+                "categoryId": "cms1v46py00033ap7cr4c5oxh",
+                "url": "/shop",
+                "productIds": [
+                    "cmu9y1vwc000z3affjvlvlmkk",
+                    "cmu9wuy6f000w3affbct7ka48",
+                    "cmtg41k7w00053abe7n91xx5b",
+                    "cmu9tmwzn000k3affen462q3r",
+                    "cmu9sts3q000c3affc36qy1kw"
+                ]
+            },
+            "sortOrder": 12,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm24002fummwp7heh0ly",
+            "pageId": "cmqb9jm24002eummw1ci0ijte",
+            "type": "BANNER",
+            "content": [],
+            "sortOrder": 0,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm24002gummwmw7oxjoj",
+            "pageId": "cmqb9jm24002eummw1ci0ijte",
+            "type": "RICH_TEXT",
+            "content": {
+                "html": "<h2>Our Story</h2><p>Founded in 2020 in Dhaka, <strong>Best Cool Electronics</strong> started with a simple mission: make genuine electronics accessible to everyone in Bangladesh at honest prices. Today we serve customers in all 64 districts with official-warranty smartphones, laptops, smart watches and accessories.</p><p>Every product we sell is sourced from authorized distributors — no grey-market imports, no clones, no compromises.</p>"
+            },
+            "sortOrder": 1,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm24002hummw923jixsj",
+            "pageId": "cmqb9jm24002eummw1ci0ijte",
+            "type": "IMAGE_TEXT",
+            "content": {
+                "html": "<ul><li><strong>100% genuine products</strong> with official Bangladesh warranty</li><li><strong>Fast delivery</strong> — same-day inside Dhaka, 2–4 days nationwide</li><li><strong>Cash on delivery</strong> everywhere in Bangladesh</li><li><strong>Easy returns</strong> — 7-day replacement guarantee</li></ul>",
+                "image": "https://placehold.co/800x600/1e293b/f8fafc/png?text=Our%20Warehouse",
+                "layout": "left",
+                "heading": "Why Choose Best Cool Electronics?"
+            },
+            "sortOrder": 2,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm24002iummw6wexznqw",
+            "pageId": "cmqb9jm24002eummw1ci0ijte",
+            "type": "FAQ",
+            "content": {
+                "items": [
+                    {
+                        "answer": "Yes — every product is sourced from authorized distributors and carries an official Bangladesh warranty.",
+                        "question": "Are your products original?"
+                    },
+                    {
+                        "answer": "Yes, we deliver to all 64 districts via Steadfast, Pathao and RedX couriers.",
+                        "question": "Do you deliver outside Dhaka?"
+                    },
+                    {
+                        "answer": "Absolutely. COD is available nationwide, along with bKash, Nagad and card payments.",
+                        "question": "Can I pay cash on delivery?"
+                    }
+                ],
+                "heading": "Frequently Asked Questions"
+            },
+            "sortOrder": 3,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm26002kummwtri5pw59",
+            "pageId": "cmqb9jm26002jummwuart0wtu",
+            "type": "CONTACT_INFO",
+            "content": {
+                "email": "info.bestcoolelectronics@gmail.com",
+                "hours": "Open 7 days a week, 10:00 AM – 9:00 PM",
+                "phone": "+8801619245789",
+                "address": "📍 House: 482, Road: 03, Sector: 12, Uttara, Dhaka-1230, Bangladesh.",
+                "heading": "Get in Touch"
+            },
+            "sortOrder": 0,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm26002lummw7szeh3cv",
+            "pageId": "cmqb9jm26002jummwuart0wtu",
+            "type": "MAP_EMBED",
+            "content": {
+                "heading": "Find Us on the Map",
+                "embedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d228.03644965307222!2d90.38179059922277!3d23.868930106517865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1781345032008!5m2!1sen!2sbd"
+            },
+            "sortOrder": 1,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm26002mummwwlqkxeuw",
+            "pageId": "cmqb9jm26002jummwuart0wtu",
+            "type": "RICH_TEXT",
+            "content": {
+                "html": "<h3>Prefer WhatsApp?</h3><p>Tap the green WhatsApp button at the bottom-right corner of any page and our team will reply within minutes during business hours.</p>"
+            },
+            "sortOrder": 2,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2d002qummwmkdamouo",
+            "pageId": "cmqb9jm2d002pummwhqljcoly",
+            "type": "BANNER",
+            "content": {
+                "alt": "Best Cool Electronics showroom",
+                "image": "https://placehold.co/1600x400/082f49/bae6fd/png?text=Our%20Showrooms",
+                "link": "https://www.google.com/maps?ll=23.86893,90.381791&amp;z=20&amp;t=m&amp;hl=en&amp;gl=BD&amp;mapclient=embed"
+            },
+            "sortOrder": 0,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2d002rummwshrmo4nq",
+            "pageId": "cmqb9jm2d002pummwhqljcoly",
+            "type": "IMAGE_TEXT",
+            "content": {
+                "html": "<p>Our flagship showroom in the heart of Dhanmondi. Try the latest smartphones, laptops and wearables before you buy.</p><p><strong>Address:</strong> Level 4, House 12, Road 5, Dhanmondi, Dhaka 1205<br/><strong>Hours:</strong> 10:00 AM – 9:00 PM, 7 days a week<br/><strong>Phone:</strong> +880 1700-000000</p>",
+                "image": "https://placehold.co/800x600/0c4a6e/f8fafc/png?text=Dhanmondi%20Showroom",
+                "layout": "left",
+                "heading": "Dhanmondi Flagship Showroom"
+            },
+            "sortOrder": 1,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2d002summwgzjk5hxo",
+            "pageId": "cmqb9jm2d002pummwhqljcoly",
+            "type": "IMAGE_TEXT",
+            "content": {
+                "html": "<p>Serving customers in north Dhaka with the same hands-on experience and expert staff.</p><p><strong>Address:</strong> Shop 21, North Tower, Sector 7, Uttara, Dhaka 1230<br/><strong>Hours:</strong> 10:00 AM – 9:00 PM, 7 days a week<br/><strong>Phone:</strong> +880 1700-000001</p>",
+                "image": "https://placehold.co/800x600/134e4a/f8fafc/png?text=Uttara%20Showroom",
+                "layout": "right",
+                "heading": "Uttara Branch"
+            },
+            "sortOrder": 2,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2d002tummwfjamiabi",
+            "pageId": "cmqb9jm2d002pummwhqljcoly",
+            "type": "IMAGE_GALLERY",
+            "content": {
+                "images": [
+                    {
+                        "alt": "Showroom interior",
+                        "url": "https://placehold.co/600x450/1e3a8a/f8fafc/png?text=Showroom%20Interior%201"
+                    },
+                    {
+                        "alt": "Display section",
+                        "url": "https://placehold.co/600x450/312e81/f8fafc/png?text=Showroom%20Interior%202"
+                    },
+                    {
+                        "alt": "Laptop corner",
+                        "url": "https://placehold.co/600x450/3730a3/f8fafc/png?text=Showroom%20Interior%203"
+                    },
+                    {
+                        "alt": "Customer service desk",
+                        "url": "https://placehold.co/600x450/1e40af/f8fafc/png?text=Showroom%20Interior%204"
+                    }
+                ],
+                "heading": "Inside Our Showrooms"
+            },
+            "sortOrder": 3,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2h002vummwuyc4s63q",
+            "pageId": "cmqb9jm2h002uummw170ek8wc",
+            "type": "RICH_TEXT",
+            "content": {
+                "html": "<h2>Terms & Conditions</h2><p>Welcome to Best Cool Electronics. By using our website and placing an order, you agree to the following terms.</p><h3>1. Orders & Pricing</h3><p>All prices are listed in Bangladeshi Taka (BDT) and include VAT where applicable. We reserve the right to cancel orders affected by obvious pricing errors.</p><h3>2. Delivery</h3><p>Standard delivery takes 1–2 business days inside Dhaka and 2–4 business days outside Dhaka. Delivery times are estimates, not guarantees.</p><h3>3. Warranty</h3><p>All products carry the official manufacturer warranty applicable in Bangladesh. Warranty claims are handled by the respective brand's authorized service centers.</p><h3>4. Payments</h3><p>We accept Cash on Delivery, bKash, Nagad and cards (via SSLCommerz). Online payments are confirmed only after gateway verification.</p>"
+            },
+            "sortOrder": 0,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2k002xummwjeoy6esb",
+            "pageId": "cmqb9jm2k002wummwb2j98tqm",
+            "type": "RICH_TEXT",
+            "content": {
+                "html": "<h2>Privacy Policy</h2><p>Your privacy matters to us. This policy explains what data we collect and how we use it.</p><h3>What We Collect</h3><p>Name, phone number, email address and delivery address — collected when you place an order or create an account.</p><h3>How We Use It</h3><p>To process and deliver orders, send order updates by email/SMS, and improve our service. We never sell your personal data to third parties.</p><h3>Payment Security</h3><p>We never store card details. All online payments are processed by PCI-DSS-compliant gateways (bKash, Nagad, SSLCommerz).</p><h3>Cookies</h3><p>We use cookies for login sessions, your cart, and analytics (Google Analytics, Facebook Pixel) when enabled.</p>"
+            },
+            "sortOrder": 0,
+            "isEnabled": 1
+        },
+        {
+            "id": "cmqb9jm2m002zummwcesd8gr9",
+            "pageId": "cmqb9jm2m002yummwspeen3iu",
+            "type": "RICH_TEXT",
+            "content": {
+                "html": "<h2>Refund & Return Policy</h2><h3>7-Day Replacement Guarantee</h3><p>If your product arrives damaged, defective, or different from what you ordered, contact us within 7 days of delivery for a free replacement.</p><h3>Conditions</h3><ul><li>The product must be unused with all original packaging, accessories and the invoice.</li><li>An unboxing video is strongly recommended for damage claims.</li><li>Software issues covered by the manufacturer's warranty are handled by the brand's service center.</li></ul><h3>Refunds</h3><p>If a replacement is unavailable, we issue a full refund within 7–10 business days via your original payment method (or bKash/Nagad for COD orders).</p>"
+            },
+            "sortOrder": 0,
+            "isEnabled": 1
+        }
+    ],
+    "settings": {
+        "site.name": "Best Cool Electronics",
+        "site.tagline": "Bringing Comfort & Quality to Every Home.",
+        "site.logo": "/uploads/best-cool-logo-cropped.png.webp",
+        "site.favicon": "/uploads/1790605159318-3ce3494d5e8b.png.webp",
+        "nav.header": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "Shop",
+                "href": "/shop"
+            },
+            {
+                "label": "About Us",
+                "href": "/about-us"
+            },
+            {
+                "label": "Contact Us",
+                "href": "/contact-us"
+            },
+            {
+                "label": "Locate Us",
+                "href": "/showroom"
+            }
+        ],
+        "footer.columns": [
+            {
+                "links": [
+                    {
+                        "href": "/shop",
+                        "label": "Shop"
+                    },
+                    {
+                        "href": "/about-us",
+                        "label": "About Us"
+                    },
+                    {
+                        "href": "/contact-us",
+                        "label": "Contact Us"
+                    },
+                    {
+                        "href": "/showroom",
+                        "label": "Showroom"
+                    }
+                ],
+                "title": "Quick Links"
+            },
+            {
+                "links": [
+                    {
+                        "href": "/account",
+                        "label": "My Account"
+                    },
+                    {
+                        "href": "/terms",
+                        "label": "Terms & Conditions"
+                    },
+                    {
+                        "href": "/privacy-policy",
+                        "label": "Privacy Policy"
+                    },
+                    {
+                        "href": "/refund-policy",
+                        "label": "Refund & Return Policy"
+                    }
+                ],
+                "title": "Customer Care"
+            }
+        ],
+        "footer.text": "Best Cool - Bangladesh's trusted destination for genuine electronics. 100% authentic products with official warranty.",
+        "contact.phone": "+8801878165440",
+        "contact.email": "info.bestcoolelectronics@gmail.com",
+        "contact.address": "House: 4, Road: 12, Sector: 13, Uttara, Dhaka",
+        "whatsapp.number": "+8801619245789",
+        "whatsapp.message": "Hello Best Cool! I have a question about a product.",
+        "social.links": [
+            {
+                "platform": "facebook",
+                "url": "https://www.facebook.com/BestCoolElectronics"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/info.bestcoolelectronics"
+            },
+            {
+                "platform": "youtube",
+                "url": "https://www.youtube.com/@BestCoolElectronics"
+            }
+        ],
+        "seo.defaultTitle": "Best Cool — Genuine Electronics at the Best Price in Bangladesh",
+        "seo.defaultDescription": "Buy 100% authentic electronics with official warranty and fast delivery across Bangladesh."
+    },
+    "deliveryZones": [
+        {
+            "id": "cmuff93nv00003a9774vinokn",
+            "name": "Inside Dhaka",
+            "charge": "800.00",
+            "isActive": 1,
+            "sortOrder": 2
+        },
+        {
+            "id": "cmuff9kes00013a975r8qmydw",
+            "name": "Outside Dhaka",
+            "charge": "1000.00",
+            "isActive": 1,
+            "sortOrder": 2
+        }
+    ]
+}
